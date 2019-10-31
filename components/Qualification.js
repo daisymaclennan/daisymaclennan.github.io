@@ -13,9 +13,14 @@ const Qualification = styled.div`
   .qualification__title {
     width: 90%;
   }
+  @media screen and (max-width: 800px){
+    .qualification__title{
+      margin-bottom: 5px;
+    }
+  }
   @media screen and (min-width: 801px) {
     .qualification__title {
-      margin-bottom: $medium-gap;
+      margin-bottom: 15px;
     }
   }
 `
