@@ -40,7 +40,7 @@ const ExpandingSections = styled.div`
   }
 }
 /*Temporary styles until slider is built*/
-.siema {
+/*.siema {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 20px;
@@ -50,6 +50,40 @@ const ExpandingSections = styled.div`
 
 .siema img{
   width: 100%;
+}*/
+
+/*Slick slides*/
+.slick-list{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.slick-slide img{
+  width: 95%;
+  object-fit: cover;
+}
+.slick-dots button::before{
+  color: white;
+}
+.slick-dots li.slick-active button:before{
+  opacity: 1;
+  color: white;
+}
+@media screen and (max-width: 800px){
+  .slick-slide img {
+    height: 30vw;
+  }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1400px){
+  .slick-slide img {
+    height: 20vw;
+  }
+}
+
+@media screen and (min-width: 1401px){
+  .slick-slide img {
+    height: 15vw;
+  }
 }
 
 `
