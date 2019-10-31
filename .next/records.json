@@ -1,0 +1,60 @@
+{
+  "mini-css-extract-plugin node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--5-1!node_modules/react-image-lightbox/style.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "modules": {
+    "byIdentifier": {
+      "css node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--5-1!node_modules/react-image-lightbox/style.css 0": 0
+    },
+    "usedIds": {
+      "0": 0
+    }
+  },
+  "chunks": {
+    "byName": {
+      "commons": 0,
+      "static/runtime/webpack.js": 1,
+      "static/GRAAvS-lgy5_GBtxBOUIw/pages/_app.js": 2,
+      "static/GRAAvS-lgy5_GBtxBOUIw/pages/_error.js": 3,
+      "static/GRAAvS-lgy5_GBtxBOUIw/pages/contact-details.js": 4,
+      "static/GRAAvS-lgy5_GBtxBOUIw/pages/index.js": 5,
+      "static/GRAAvS-lgy5_GBtxBOUIw/pages/my-work.js": 6,
+      "static/GRAAvS-lgy5_GBtxBOUIw/pages/qualifications.js": 7,
+      "static/runtime/main.js": 8,
+      "styles": 9,
+      "static/pMsYAFhX2m2qBnOCt-1KW/pages/_app.js": 10,
+      "static/pMsYAFhX2m2qBnOCt-1KW/pages/_error.js": 11,
+      "static/pMsYAFhX2m2qBnOCt-1KW/pages/contact-details.js": 12,
+      "static/pMsYAFhX2m2qBnOCt-1KW/pages/index.js": 13,
+      "static/pMsYAFhX2m2qBnOCt-1KW/pages/my-work.js": 14,
+      "static/pMsYAFhX2m2qBnOCt-1KW/pages/qualifications.js": 15
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      8,
+      9
+    ]
+  }
+}
