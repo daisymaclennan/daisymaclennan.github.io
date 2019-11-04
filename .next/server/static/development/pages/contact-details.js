@@ -308,7 +308,7 @@ const GlobalStyle = styled_components__WEBPACK_IMPORTED_MODULE_2__["createGlobal
       font-size: 18px;
     }
     h5 {
-      font-size: 12px;
+      font-size: 15px;
     }
     p {
       font-size: 18px;

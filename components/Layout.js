@@ -133,7 +133,7 @@ const GlobalStyle = createGlobalStyle`
       font-size: 18px;
     }
     h5 {
-      font-size: 12px;
+      font-size: 15px;
     }
     p {
       font-size: 18px;
