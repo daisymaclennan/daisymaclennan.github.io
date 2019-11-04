@@ -100,7 +100,7 @@ const StyledNavigation = styled(Navigation)`
       position: absolute;
       padding: 0;
 
-      top: 12px;
+      top: 10px;
       right: 0;
     }
     svg{
