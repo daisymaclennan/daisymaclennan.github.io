@@ -87,6 +87,7 @@ const GlobalStyle = createGlobalStyle`
     fill: white !important;
     width: 16px;
     margin-left: 15px;
+    min-width: 16px;
   }
   h5 {
     font-family: Raleway;
@@ -135,7 +136,7 @@ const GlobalStyle = createGlobalStyle`
       font-size: 12px;
     }
     p {
-      font-size: 16px;
+      font-size: 18px;
       line-height: 25px;
     }
   }

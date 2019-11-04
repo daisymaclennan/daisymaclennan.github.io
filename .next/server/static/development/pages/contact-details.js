@@ -88,10 +88,30 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
+
+/***/ "./components/ContactField.js":
+/*!************************************!*\
+  !*** ./components/ContactField.js ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "styled-components");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_0__);
+
+const ContactField = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
+  displayName: "ContactField",
+  componentId: "sc-4egp4p-0"
+})(["h5{margin-top:0;margin-bottom:10px;opacity:0.8;}h3{margin-top:0;}@media screen and (max-width:800px){h3{padding-left:0px;font-size:20px;}}@media screen and (min-width:801px){h3{font-weight:bold;margin-left:40px;}}"]);
+/* harmony default export */ __webpack_exports__["default"] = (ContactField);
+
+/***/ }),
 
 /***/ "./components/Content.js":
 /*!*******************************!*\
@@ -573,26 +593,6 @@ const StyledNavigation = styled_components__WEBPACK_IMPORTED_MODULE_1___default(
   componentId: "rpc0mw-0"
 })(["ul{margin-top:0;}a{display:block;}.link--active h3{font-weight:bold;}@media screen and (max-width:800px){position:relative;.link--inactive{display:none;opacity:0.9;}.link--active{width:fit-content;}.link--active h3,.link--inactive h3{pointer-events:none;margin-top:10px;margin-bottom:10px;}button{background:transparent;border:0;position:absolute;padding:0;top:8px;right:0;}svg{pointer-events:none;}.open ~ li{display:block!important;}}@media screen and (min-width:801px){button{display:none;}}@media screen and (min-width:801px) and (max-width:1440px){min-width:355px;.link--active{background-image:url(\"../../static/bullet.svg\");background-size:20px;background-repeat:no-repeat;background-position:0px 10px;padding-left:40px;}h3{margin-bottom:15px;}}@media screen and (min-width:1441px){min-width:532px;.link--active{background-image:url(\"../../static/bullet.svg\");background-repeat:no-repeat;background-position:0px 15px;padding-left:45px;}h3{margin-bottom:25px;}}@media screen and (min-width:801px){h3{margin-top:0;}}"]);
 /* harmony default export */ __webpack_exports__["default"] = (StyledNavigation);
-
-/***/ }),
-
-/***/ "./components/Text.js":
-/*!****************************!*\
-  !*** ./components/Text.js ***!
-  \****************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "styled-components");
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_0__);
-
-const Text = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
-  displayName: "Text",
-  componentId: "sc-174ei7f-0"
-})(["@media screen and (max-width:800px){p + p{margin-top:10px;}}@media screen and (min-width:801px){p + p{margin-top:15px;}}"]);
-/* harmony default export */ __webpack_exports__["default"] = (Text);
 
 /***/ }),
 
@@ -2328,81 +2328,99 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 
 /***/ }),
 
-/***/ "./pages/index.js":
-/*!************************!*\
-  !*** ./pages/index.js ***!
-  \************************/
+/***/ "./pages/contact-details/index.js":
+/*!****************************************!*\
+  !*** ./pages/contact-details/index.js ***!
+  \****************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "styled-components");
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next/router */ "next/router");
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _components_Text__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Text */ "./components/Text.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/Layout */ "./components/Layout.js");
+/* harmony import */ var _static_contactDetails__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../static/contactDetails */ "./static/contactDetails.js");
+/* harmony import */ var _components_ContactField__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/ContactField */ "./components/ContactField.js");
+var _jsxFileName = "/Users/daisymaclennan/Projects/my-portfolio/pages/contact-details/index.js";
 
-var _jsxFileName = "/Users/daisymaclennan/Projects/my-portfolio/pages/index.js";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-
-
-
-var _StyledP = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.p.withConfig({
-  displayName: "pages___StyledP",
-  componentId: "sc-1x6prdl-0"
-})(["letter-spacing:0.05em;font-weight:500;"]);
-
-/* harmony default export */ __webpack_exports__["default"] = (() => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_3__["default"], {
+/* harmony default export */ __webpack_exports__["default"] = (() => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 6
+  },
+  __self: undefined
+}, _static_contactDetails__WEBPACK_IMPORTED_MODULE_2__["default"].map(detail => __jsx(_components_ContactField__WEBPACK_IMPORTED_MODULE_3__["default"], {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 8
   },
   __self: undefined
-}, __jsx(_components_Text__WEBPACK_IMPORTED_MODULE_5__["default"], {
+}, __jsx("h5", {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 9
   },
   __self: undefined
-}, __jsx(_StyledP, {
+}, detail.label), __jsx("a", {
+  href: detail.link,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 10
   },
   __self: undefined
-}, "THIS IS MY WORK IN PROGRESS PORTFOLIO SITE!"), __jsx("p", {
+}, __jsx("h3", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 16
+    lineNumber: 11
   },
   __self: undefined
-}, "I am a web developer who has been working at Si digital as an apprentice since December 2018. During this time I have worked on building websites using WordPress, React and Next.js. I have also spent time facilitating and formatting requirements for projects that I am working on. For a couple of my projects I have designed and developed the mySQL databases and API endpoints to integrate with them. Although it isn\u2019t my specialty I also enjoy designing user interfaces using Figma and have built a few websites using them (including this one)."), __jsx("p", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 19
-  },
-  __self: undefined
-}, "I will write more for this page when I have perfected the other areas of the site."))));
+}, detail.value))))));
 
 /***/ }),
 
-/***/ 5:
-/*!******************************!*\
-  !*** multi ./pages/index.js ***!
-  \******************************/
+/***/ "./static/contactDetails.js":
+/*!**********************************!*\
+  !*** ./static/contactDetails.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+const contactDetails = [{
+  label: 'Email Address',
+  value: 'daisylouisemaclennan@gmail.com',
+  link: 'mailto:daisylouisemaclennan@gmail.com'
+}, {
+  label: 'Phone number',
+  value: '07932370594',
+  link: 'tel:07932370594'
+}, {
+  label: 'Instagram',
+  value: 'maclennandaisy',
+  link: ''
+}, {
+  label: 'LinkedIn',
+  value: 'daisymaclennan',
+  link: ''
+}];
+/* harmony default export */ __webpack_exports__["default"] = (contactDetails);
+
+/***/ }),
+
+/***/ 3:
+/*!**********************************************!*\
+  !*** multi ./pages/contact-details/index.js ***!
+  \**********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/daisymaclennan/Projects/my-portfolio/pages/index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! /Users/daisymaclennan/Projects/my-portfolio/pages/contact-details/index.js */"./pages/contact-details/index.js");
 
 
 /***/ }),
@@ -2573,4 +2591,4 @@ module.exports = require("url");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=contact-details.js.map

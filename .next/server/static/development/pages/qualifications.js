@@ -128,7 +128,7 @@ __webpack_require__.r(__webpack_exports__);
 const ExpandingSections = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
   displayName: "ExpandingSections",
   componentId: "sc-1kaecmq-0"
-})([".expandingSection--child{display:none;}.open ~ div{display:block !important;margin-top:20px;}.open > svg{transform:rotate(180deg);}.link--icon > *{pointer-events:none;}@media screen and (max-width:800px){.expandingSection + .expandingSection{margin-top:20px;}.open ~ div{margin-top:15px;}}@media screen and (min-width:801px) and (max-width:1440px){.expandingSection + .expandingSection{margin-top:20px;}.expandingSection{width:calc(100vw - 435px);}}@media screen and (min-width:1441px){.expandingSection + .expandingSection{margin-top:20px;}.expandingSection{width:calc(100vw - 672px);}}"]);
+})([".expandingSection--child{display:none;}.open ~ div{display:block !important;margin-top:20px;}.open > svg{transform:rotate(180deg);}.link--icon > *{pointer-events:none;}@media screen and (max-width:800px){.expandingSection + .expandingSection{margin-top:20px;}.open ~ div{margin-top:15px;}}@media screen and (min-width:801px) and (max-width:1440px){.expandingSection + .expandingSection{margin-top:20px;}.expandingSection{width:calc(100vw - 435px);}}@media screen and (min-width:1441px){.expandingSection + .expandingSection{margin-top:20px;}.expandingSection{width:calc(100vw - 672px);}}.slick-list{padding-top:10px;padding-bottom:10px;}.slick-slide img{width:95%;object-fit:cover;}.slick-dots button::before{color:white;}.slick-dots li.slick-active button:before{opacity:1;color:white;}@media screen and (max-width:800px){.slick-slide img{height:30vw;}}@media screen and (min-width:801px) and (max-width:1400px){.slick-slide img{height:20vw;}}@media screen and (min-width:1401px){.slick-slide img{height:20vw;}}"]);
 /* harmony default export */ __webpack_exports__["default"] = (ExpandingSections);
 
 /***/ }),
@@ -262,6 +262,7 @@ const GlobalStyle = styled_components__WEBPACK_IMPORTED_MODULE_2__["createGlobal
     fill: white !important;
     width: 16px;
     margin-left: 15px;
+    min-width: 16px;
   }
   h5 {
     font-family: Raleway;
@@ -310,7 +311,7 @@ const GlobalStyle = styled_components__WEBPACK_IMPORTED_MODULE_2__["createGlobal
       font-size: 12px;
     }
     p {
-      font-size: 16px;
+      font-size: 18px;
       line-height: 25px;
     }
   }
@@ -340,50 +341,50 @@ const Layout = ({
 }) => __jsx("div", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 164
+    lineNumber: 165
   },
   __self: undefined
 }, __jsx(GlobalStyle, {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 165
+    lineNumber: 166
   },
   __self: undefined
 }), __jsx(_Header__WEBPACK_IMPORTED_MODULE_3__["default"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 166
+    lineNumber: 167
   },
   __self: undefined
 }, __jsx("h1", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 167
+    lineNumber: 168
   },
   __self: undefined
 }, "Daisy Maclennan"), __jsx("h2", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 168
+    lineNumber: 169
   },
   __self: undefined
 }, "Web developer, Portsmouth UK")), __jsx(_Content__WEBPACK_IMPORTED_MODULE_5__["default"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 170
+    lineNumber: 171
   },
   __self: undefined
 }, __jsx(_Navigation__WEBPACK_IMPORTED_MODULE_4__["default"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 171
+    lineNumber: 172
   },
   __self: undefined
 }), __jsx("div", {
   className: "content--inner",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 172
+    lineNumber: 173
   },
   __self: undefined
 }, children)));

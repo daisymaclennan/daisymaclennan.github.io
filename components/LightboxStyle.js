@@ -349,39 +349,7 @@ transform: translateX(-50%) translateY(-50%);
 }
 
 /*My own custom css*/
-/*Slick slides*/
-.slick-list{
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-.slick-slide img{
-  width: 95%;
-  object-fit: cover;
-}
-.slick-dots button::before{
-  color: white;
-}
-.slick-dots li.slick-active button:before{
-  opacity: 1;
-  color: white;
-}
-@media screen and (max-width: 800px){
-  .slick-slide img {
-    height: 30vw;
-  }
-}
 
-@media screen and (min-width: 801px) and (max-width: 1400px){
-  .slick-slide img {
-    height: 20vw;
-  }
-}
-
-@media screen and (min-width: 1401px){
-  .slick-slide img {
-    height: 15vw;
-  }
-}
 `
 
 export default LightboxStyle
