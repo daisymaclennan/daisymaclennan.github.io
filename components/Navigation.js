@@ -87,7 +87,7 @@ const StyledNavigation = styled(Navigation)`
       opacity: 0.9;
     }
     .link--active {
-      width: 100%;
+      width: fit-content;
     }
     .link--active h3, .link--inactive h3{
       pointer-events: none;
@@ -115,7 +115,7 @@ const StyledNavigation = styled(Navigation)`
       display: none;
     }
   }
-  @media screen and (min-width: 801px) and (max-width: 1440px) {
+  @media screen and (min-width: 801px) and (max-width: 1440px){
     min-width: 355px;
 
     .link--active {

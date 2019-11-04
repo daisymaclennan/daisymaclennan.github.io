@@ -7,7 +7,7 @@ const Projects = styled.div`
     margin: 0;
   }
   .project + .project {
-  margin-top: 40px;
+    padding-top: 40px;
   }
   @media screen and (max-width: 800px) {
     .project {
