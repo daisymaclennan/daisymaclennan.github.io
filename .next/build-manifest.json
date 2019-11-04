@@ -24,6 +24,10 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
+    "/my-work": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
     "/qualifications": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"

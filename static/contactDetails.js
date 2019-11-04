@@ -10,6 +10,11 @@ const contactDetails = [
     link: 'tel:07932370594'
   },
   {
+    label: 'GitHub',
+    value: 'daisymaclennan',
+    link: 'https://github.com/daisymaclennan'
+  },
+  {
     label: 'Instagram',
     value: 'maclennandaisy',
     link: ''

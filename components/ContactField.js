@@ -8,6 +8,16 @@ const ContactField = styled.div`
   }
   h3 {
     margin-top: 0;
+    margin-bottom: 0;
+  }
+  svg{
+    height: 15px;
+    margin-left: 15px;
+    padding-top: 4px;
+  }
+  a{
+    display: flex;
+    align-items: center;
   }
   @media screen and (max-width: 800px) {
     h3 {
@@ -18,7 +28,11 @@ const ContactField = styled.div`
   @media screen and (min-width: 801px) {
     h3 {
       font-weight: bold;
+
+    }
+    a{
       margin-left: 40px;
+      margin-bottom: 30px;
     }
   }
 `
