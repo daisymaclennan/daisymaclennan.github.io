@@ -7,7 +7,7 @@ import React, {useState} from 'react'
 import Slider from "react-slick"
 
 import Lightbox from 'react-image-lightbox'
-import 'react-image-lightbox/style.css'
+import LightboxStyle from '../../components/LightboxStyle'
 
 export default () => {
   const [activeDrops, setActiveDrops] = useState([])
@@ -25,6 +25,7 @@ export default () => {
   })
   return(
     <Layout>
+      <LightboxStyle />
       <Projects>
         {myWork.map(work => (
 
@@ -57,10 +58,8 @@ export default () => {
                 <div className='expandingSection--child'>
                   <Slider {...sliderSettings}>
                     {work.img.map(i => (
-                      <div onClick={() => setActiveImage({
-                                                          photoIndex: i.index,
-                                                          isOpen: true
-                                                        })}
+                      <div onClick={() => setActiveImage({photoIndex: i.index,
+                                                          isOpen: true })}
                            key={i.index}
                       >
                           <img src={`/static/img/${i.filename}`} alt={`${i.alt}`}/>

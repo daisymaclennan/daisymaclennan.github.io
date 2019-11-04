@@ -77,6 +77,12 @@ const GlobalStyle = createGlobalStyle`
     padding-left: 0;
     letter-spacing: 0.04em;
   }
+  @media screen and (max-width: 800px){
+    .link--icon > h3{
+      font-size: 18px;
+      line-height: 22px;
+    }
+  }
   .link--icon > svg {
     fill: white !important;
     width: 16px;

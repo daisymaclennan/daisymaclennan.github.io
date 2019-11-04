@@ -1,1 +1,0 @@
-{"ast":null,"code":"import styled from 'styled-components';\nconst Text = styled.div.withConfig({\n  displayName: \"Text\",\n  componentId: \"sc-174ei7f-0\"\n})([\"@media screen and (max-width:800px){p + p{margin-top:10px;}}@media screen and (min-width:801px){p + p{margin-top:15px;}}\"]);\nexport default Text;","map":null,"metadata":{},"sourceType":"module"}

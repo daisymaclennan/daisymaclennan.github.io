@@ -11,7 +11,8 @@ const ContactField = styled.div`
   }
   @media screen and (max-width: 800px) {
     h3 {
-      padding-left: 20px;
+      padding-left: 0px;
+      font-size: 20px;
     }
   }
   @media screen and (min-width: 801px) {

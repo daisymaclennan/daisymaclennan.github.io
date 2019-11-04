@@ -7,7 +7,7 @@ module.exports = Object.assign(
       url: false
     }
   }),
-  {
+  /*{
     exportPathMap: function() {
       return {
         '/': { page: '/' },
@@ -16,5 +16,5 @@ module.exports = Object.assign(
         '/contact-details': { page: '/contact-details'}
       }
     }
-  }
+  }*/
   )

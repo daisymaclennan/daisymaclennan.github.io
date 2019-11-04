@@ -14,7 +14,7 @@ __webpack_require__.r(__webpack_exports__);
 var Content = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withConfig({
   displayName: "Content",
   componentId: "sc-1w696lm-0"
-})(["position:fixed;top:0;left:0;.content--inner{overflow-y:scroll;}@media screen and (max-width:800px){padding-left:15px;padding-right:15px;padding-top:130px;.content--inner{width:calc(100vw - 30px);}}@media screen and (min-width:801px) and (max-width:1440px){padding-left:40px;padding-right:40px;padding-top:200px;.content--inner{height:calc(100vh - 250px);padding-top:5px;}}@media screen and (min-width:1441px){padding-left:70px;padding-right:70px;padding-top:240px;.content--inner{height:calc(100vh - 340px);padding-top:12px;}}@media screen and (min-width:801px){display:flex;}"]);
+})(["position:fixed;top:0;left:0;.content--inner{overflow-y:scroll;}@media screen and (max-width:800px){padding-left:15px;padding-right:15px;padding-top:130px;.content--inner{height:calc(100vh - 230px);width:calc(100vw - 30px);padding-bottom:150px;}}@media screen and (min-width:801px) and (max-width:1440px){padding-left:40px;padding-right:40px;padding-top:200px;.content--inner{height:calc(100vh - 250px);padding-top:5px;}}@media screen and (min-width:1441px){padding-left:70px;padding-right:70px;padding-top:240px;.content--inner{height:calc(100vh - 340px);padding-top:12px;}}@media screen and (min-width:801px){display:flex;}"]);
 /* harmony default export */ __webpack_exports__["default"] = (Content);
 
 /***/ }),
@@ -62,7 +62,7 @@ var _jsxFileName = "/Users/daisymaclennan/Projects/my-portfolio/components/Layou
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  *:focus {\n    outline: 0px;\n  }\n  li,\n  ul {\n    list-style: none;\n    padding-left: 0;\n  }\n  a {\n    color: #FFFFFF;\n    text-decoration: none;\n  }\n  p {\n    margin-top: 0;\n  }\n  body {\n    background-color: #000000;\n    color: #FFFFFF;\n    -webkit-font-smoothing: antialiased;\n    margin: 0;\n  }\n  /*Name at the top of the page*/\n  h1 {\n    font-family: Playfair Display;\n    font-weight: bold;\n    letter-spacing: 0.02em;\n  }\n  /*Tagline*/\n  h2 {\n    font-family: Raleway;\n    font-weight: 500;\n  }\n  /*Page titles*/\n  h3 {\n    font-family: Playfair Display;\n    font-weight: normal;\n    letter-spacing: 0.02em;\n  }\n  li h3:hover {\n    font-weight: bold;\n  }\n  .title--active {\n    font-weight: bold;\n  }\n  /*Sub titles*/\n  .subheading {\n    font-family: Raleway;\n    font-weight: 600;\n    letter-spacing: 0.1em;\n    text-transform: uppercase;\n    margin-top: 0;\n    margin-bottom: 0;\n    text-align: left;\n  }\n  /*Print link*/\n  .link--print {\n    font-family: Raleway;\n    letter-spacing: 0.02em;\n    font-weight: 500;\n  }\n  /*Icon links*/\n  .link--icon {\n    font-family: Raleway;\n    letter-spacing: 0.04em;\n    color: white;\n    background-color: black;\n    border: 0;\n    display: flex;\n    align-items: center;\n    padding-left: 0;\n    letter-spacing: 0.04em;\n  }\n  .link--icon > svg {\n    fill: white !important;\n    width: 16px;\n    margin-left: 15px;\n  }\n  h5 {\n    font-family: Raleway;\n    letter-spacing: 0.03em;\n    font-weight: 300;\n  }\n  p {\n    font-family: Raleway;\n    font-weight: 300;\n    opacity: 0.9;\n  }\n  @media screen and (max-width: 1440px) {\n    h1 {\n      font-size: 30px;\n    }\n    h2 {\n      font-size: 24px;\n    }\n    h3 {\n      font-size: 24px;\n      line-height: 34px;\n    }\n  }\n  @media screen and (min-width: 1441px) {\n    h1 {\n      font-size: 48px;\n    }\n    h2 {\n      font-size: 36px;\n    }\n    h3 {\n      font-size: 30px;\n    }\n  }\n  @media screen and (max-width: 1000px) {\n    .link--print {\n      font-size: 14px;\n    }\n    .link--icon {\n      font-size: 18px;\n    }\n    h4 {\n      font-size: 18px;\n    }\n    h5 {\n      font-size: 12px;\n    }\n    p {\n      font-size: 16px;\n      line-height: 25px;\n    }\n  }\n  @media screen and (min-width: 1001px) {\n    .link--print,\n    h4 {\n      font-size: 30px;\n    }\n    .link--icon {\n      font-size: 24px;\n    }\n    .subheading {\n      margin-top: 0;\n    }\n    h5 {\n      font-size: 18px;\n    }\n    p {\n      font-size: 24px;\n      line-height: 35px;\n    }\n  }\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  *:focus {\n    outline: 0px;\n  }\n  li,\n  ul {\n    list-style: none;\n    padding-left: 0;\n  }\n  a {\n    color: #FFFFFF;\n    text-decoration: none;\n  }\n  p {\n    margin-top: 0;\n  }\n  body {\n    background-color: #000000;\n    color: #FFFFFF;\n    -webkit-font-smoothing: antialiased;\n    margin: 0;\n  }\n  /*Name at the top of the page*/\n  h1 {\n    font-family: Playfair Display;\n    font-weight: bold;\n    letter-spacing: 0.02em;\n  }\n  /*Tagline*/\n  h2 {\n    font-family: Raleway;\n    font-weight: 500;\n  }\n  /*Page titles*/\n  h3 {\n    font-family: Playfair Display;\n    font-weight: normal;\n    letter-spacing: 0.02em;\n  }\n  li h3:hover {\n    font-weight: bold;\n  }\n  .title--active {\n    font-weight: bold;\n  }\n  /*Sub titles*/\n  .subheading {\n    font-family: Raleway;\n    font-weight: 600;\n    letter-spacing: 0.1em;\n    text-transform: uppercase;\n    margin-top: 0;\n    margin-bottom: 0;\n    text-align: left;\n  }\n  /*Print link*/\n  .link--print {\n    font-family: Raleway;\n    letter-spacing: 0.02em;\n    font-weight: 500;\n  }\n  /*Icon links*/\n  .link--icon {\n    font-family: Raleway;\n    letter-spacing: 0.04em;\n    color: white;\n    background-color: black;\n    border: 0;\n    display: flex;\n    align-items: center;\n    padding-left: 0;\n    letter-spacing: 0.04em;\n  }\n  @media screen and (max-width: 800px){\n    .link--icon > h3{\n      font-size: 18px;\n      line-height: 22px;\n    }\n  }\n  .link--icon > svg {\n    fill: white !important;\n    width: 16px;\n    margin-left: 15px;\n  }\n  h5 {\n    font-family: Raleway;\n    letter-spacing: 0.03em;\n    font-weight: 300;\n  }\n  p {\n    font-family: Raleway;\n    font-weight: 300;\n    opacity: 0.9;\n  }\n  @media screen and (max-width: 1440px) {\n    h1 {\n      font-size: 30px;\n    }\n    h2 {\n      font-size: 24px;\n    }\n    h3 {\n      font-size: 24px;\n      line-height: 34px;\n    }\n  }\n  @media screen and (min-width: 1441px) {\n    h1 {\n      font-size: 48px;\n    }\n    h2 {\n      font-size: 36px;\n    }\n    h3 {\n      font-size: 30px;\n    }\n  }\n  @media screen and (max-width: 1000px) {\n    .link--print {\n      font-size: 14px;\n    }\n    .link--icon {\n      font-size: 18px;\n    }\n    h4 {\n      font-size: 18px;\n    }\n    h5 {\n      font-size: 12px;\n    }\n    p {\n      font-size: 16px;\n      line-height: 25px;\n    }\n  }\n  @media screen and (min-width: 1001px) {\n    .link--print,\n    h4 {\n      font-size: 30px;\n    }\n    .link--icon {\n      font-size: 24px;\n    }\n    .subheading {\n      margin-top: 0;\n    }\n    h5 {\n      font-size: 18px;\n    }\n    p {\n      font-size: 24px;\n      line-height: 35px;\n    }\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -83,50 +83,50 @@ var Layout = function Layout(_ref) {
   return __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 158
+      lineNumber: 164
     },
     __self: this
   }, __jsx(GlobalStyle, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 159
+      lineNumber: 165
     },
     __self: this
   }), __jsx(_Header__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 160
+      lineNumber: 166
     },
     __self: this
   }, __jsx("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 161
+      lineNumber: 167
     },
     __self: this
   }, "Daisy Maclennan"), __jsx("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 162
+      lineNumber: 168
     },
     __self: this
   }, "Web developer, Portsmouth UK")), __jsx(_Content__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 164
+      lineNumber: 170
     },
     __self: this
   }, __jsx(_Navigation__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 165
+      lineNumber: 171
     },
     __self: this
   }), __jsx("div", {
     className: "content--inner",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 166
+      lineNumber: 172
     },
     __self: this
   }, children)));
@@ -305,7 +305,7 @@ var Navigation = function Navigation(_ref) {
 var StyledNavigation = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(Navigation).withConfig({
   displayName: "Navigation__StyledNavigation",
   componentId: "rpc0mw-0"
-})(["ul{margin-top:0;}a{display:block;}.link--active h3{font-weight:bold;}@media screen and (max-width:800px){.link--inactive{display:none;}.link--active{margin-bottom:20px;}}@media screen and (min-width:801px) and (max-width:1440px){min-width:355px;.link--active{background-image:url(\"../../static/bullet.svg\");background-size:20px;background-repeat:no-repeat;background-position:0px 10px;padding-left:40px;}h3{margin-bottom:15px;}}@media screen and (min-width:1441px){min-width:532px;.link--active{background-image:url(\"../../static/bullet.svg\");background-repeat:no-repeat;background-position:0px 15px;padding-left:45px;}h3{margin-bottom:25px;}}@media screen and (min-width:801px){h3{margin-top:0;}}"]);
+})(["ul{margin-top:0;}a{display:block;}.link--active h3{font-weight:bold;}@media screen and (max-width:800px){.link--inactive{display:none;}.link--active{margin-bottom:20px;width:100%;}}@media screen and (min-width:801px){svg{display:none;}}@media screen and (min-width:801px) and (max-width:1440px){min-width:355px;.link--active{background-image:url(\"../../static/bullet.svg\");background-size:20px;background-repeat:no-repeat;background-position:0px 10px;padding-left:40px;}h3{margin-bottom:15px;}}@media screen and (min-width:1441px){min-width:532px;.link--active{background-image:url(\"../../static/bullet.svg\");background-repeat:no-repeat;background-position:0px 15px;padding-left:45px;}h3{margin-bottom:25px;}}@media screen and (min-width:801px){h3{margin-top:0;}}"]);
 /* harmony default export */ __webpack_exports__["default"] = (StyledNavigation);
 
 /***/ }),
@@ -14074,7 +14074,7 @@ var _StyledP = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].p.withC
 
 /***/ }),
 
-/***/ 1:
+/***/ 3:
 /*!***************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fdaisymaclennan%2FProjects%2Fmy-portfolio%2Fpages%2Findex.js ***!
   \***************************************************************************************************************************************/
@@ -14097,5 +14097,5 @@ module.exports = dll_7aff549c98b978433226;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[3,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map

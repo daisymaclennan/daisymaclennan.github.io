@@ -24,7 +24,7 @@ const Navigation = ({className}) => {
       <ul>
         <li>
           <Link href="/">
-            <a className={activeRoute === "personal-statement" ? "link--active" : "link--inactive"}>
+            <a className={activeRoute === "personal-statement" ? "link--active" : "link--inactive"} >
               <h3>
                 personal statement
               </h3>
@@ -74,12 +74,19 @@ const StyledNavigation = styled(Navigation)`
     font-weight: bold;
   }
   @media screen and (max-width: 800px) {
-  .link--inactive {
-    display: none;
+    .link--inactive {
+      display: none;
+    }
+    .link--active {
+      margin-bottom: 20px;
+      width: 100%;
+    }
+
   }
-  .link--active {
-    margin-bottom: 20px;
-  }
+  @media screen and (min-width: 801px){
+    svg{
+      display: none;
+    }
   }
   @media screen and (min-width: 801px) and (max-width: 1440px) {
     min-width: 355px;

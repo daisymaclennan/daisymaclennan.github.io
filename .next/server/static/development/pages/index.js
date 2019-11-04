@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -108,7 +108,7 @@ __webpack_require__.r(__webpack_exports__);
 const Content = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
   displayName: "Content",
   componentId: "sc-1w696lm-0"
-})(["position:fixed;top:0;left:0;.content--inner{overflow-y:scroll;}@media screen and (max-width:800px){padding-left:15px;padding-right:15px;padding-top:130px;.content--inner{width:calc(100vw - 30px);}}@media screen and (min-width:801px) and (max-width:1440px){padding-left:40px;padding-right:40px;padding-top:200px;.content--inner{height:calc(100vh - 250px);padding-top:5px;}}@media screen and (min-width:1441px){padding-left:70px;padding-right:70px;padding-top:240px;.content--inner{height:calc(100vh - 340px);padding-top:12px;}}@media screen and (min-width:801px){display:flex;}"]);
+})(["position:fixed;top:0;left:0;.content--inner{overflow-y:scroll;}@media screen and (max-width:800px){padding-left:15px;padding-right:15px;padding-top:130px;.content--inner{height:calc(100vh - 230px);width:calc(100vw - 30px);padding-bottom:150px;}}@media screen and (min-width:801px) and (max-width:1440px){padding-left:40px;padding-right:40px;padding-top:200px;.content--inner{height:calc(100vh - 250px);padding-top:5px;}}@media screen and (min-width:1441px){padding-left:70px;padding-right:70px;padding-top:240px;.content--inner{height:calc(100vh - 340px);padding-top:12px;}}@media screen and (min-width:801px){display:flex;}"]);
 /* harmony default export */ __webpack_exports__["default"] = (Content);
 
 /***/ }),
@@ -232,6 +232,12 @@ const GlobalStyle = styled_components__WEBPACK_IMPORTED_MODULE_2__["createGlobal
     padding-left: 0;
     letter-spacing: 0.04em;
   }
+  @media screen and (max-width: 800px){
+    .link--icon > h3{
+      font-size: 18px;
+      line-height: 22px;
+    }
+  }
   .link--icon > svg {
     fill: white !important;
     width: 16px;
@@ -314,50 +320,50 @@ const Layout = ({
 }) => __jsx("div", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 158
+    lineNumber: 164
   },
   __self: undefined
 }, __jsx(GlobalStyle, {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 159
+    lineNumber: 165
   },
   __self: undefined
 }), __jsx(_Header__WEBPACK_IMPORTED_MODULE_3__["default"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 160
+    lineNumber: 166
   },
   __self: undefined
 }, __jsx("h1", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 161
+    lineNumber: 167
   },
   __self: undefined
 }, "Daisy Maclennan"), __jsx("h2", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 162
+    lineNumber: 168
   },
   __self: undefined
 }, "Web developer, Portsmouth UK")), __jsx(_Content__WEBPACK_IMPORTED_MODULE_5__["default"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 164
+    lineNumber: 170
   },
   __self: undefined
 }, __jsx(_Navigation__WEBPACK_IMPORTED_MODULE_4__["default"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 165
+    lineNumber: 171
   },
   __self: undefined
 }), __jsx("div", {
   className: "content--inner",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 166
+    lineNumber: 172
   },
   __self: undefined
 }, children)));
@@ -537,7 +543,7 @@ const Navigation = ({
 const StyledNavigation = styled_components__WEBPACK_IMPORTED_MODULE_1___default()(Navigation).withConfig({
   displayName: "Navigation__StyledNavigation",
   componentId: "rpc0mw-0"
-})(["ul{margin-top:0;}a{display:block;}.link--active h3{font-weight:bold;}@media screen and (max-width:800px){.link--inactive{display:none;}.link--active{margin-bottom:20px;}}@media screen and (min-width:801px) and (max-width:1440px){min-width:355px;.link--active{background-image:url(\"../../static/bullet.svg\");background-size:20px;background-repeat:no-repeat;background-position:0px 10px;padding-left:40px;}h3{margin-bottom:15px;}}@media screen and (min-width:1441px){min-width:532px;.link--active{background-image:url(\"../../static/bullet.svg\");background-repeat:no-repeat;background-position:0px 15px;padding-left:45px;}h3{margin-bottom:25px;}}@media screen and (min-width:801px){h3{margin-top:0;}}"]);
+})(["ul{margin-top:0;}a{display:block;}.link--active h3{font-weight:bold;}@media screen and (max-width:800px){.link--inactive{display:none;}.link--active{margin-bottom:20px;width:100%;}}@media screen and (min-width:801px){svg{display:none;}}@media screen and (min-width:801px) and (max-width:1440px){min-width:355px;.link--active{background-image:url(\"../../static/bullet.svg\");background-size:20px;background-repeat:no-repeat;background-position:0px 10px;padding-left:40px;}h3{margin-bottom:15px;}}@media screen and (min-width:1441px){min-width:532px;.link--active{background-image:url(\"../../static/bullet.svg\");background-repeat:no-repeat;background-position:0px 15px;padding-left:45px;}h3{margin-bottom:25px;}}@media screen and (min-width:801px){h3{margin-top:0;}}"]);
 /* harmony default export */ __webpack_exports__["default"] = (StyledNavigation);
 
 /***/ }),
@@ -2361,7 +2367,7 @@ var _StyledP = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.p.withCo
 
 /***/ }),
 
-/***/ 4:
+/***/ 5:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
