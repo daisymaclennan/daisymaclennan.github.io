@@ -74,7 +74,7 @@ export default () => {
               <Lightbox
                 mainSrc={`/static/img/${myWork.find(e => e.slug === activeImage.project).img[activeImage.photoIndex].filename}`}
                 onCloseRequest={() => setActiveImage({isOpen: false})}
-                imageCaption={work.img[activeImage.photoIndex].alt}
+                imageCaption={myWork.find(e => e.slug === activeImage.project).img[activeImage.photoIndex].alt}
                 enableZoom={false}
               />
             )}

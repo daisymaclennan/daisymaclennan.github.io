@@ -7,22 +7,22 @@ const myWork = [
     img: [
       {
         index: 0,
-        alt: 'Word processing section of the application',
+        alt: 'Word processing section of word muncher',
         filename: 'word-one.png'
       },
       {
         index: 1,
-        alt: 'Sign in section of the application with an error visible',
+        alt: 'Sign in section of word muncher with an error visible',
         filename: 'word-two.png'
       },
       {
         index: 2,
-        alt: 'Register section of the application with an error visible',
+        alt: 'Register section of word muncher with an error visible',
         filename: 'word-three.png'
       },
       {
         index: 3,
-        alt: 'Register section without errors',
+        alt: 'Register section of word muncher without errors',
         filename: 'word-four.png'
       },
     ]

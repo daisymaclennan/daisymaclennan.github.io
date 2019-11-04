@@ -114,6 +114,8 @@ justify-content: space-between;
 }
 
 .ril__caption {
+font-family: Raleway;
+letter-spacing: 0.03em;
 bottom: 0;
 max-height: 150px;
 overflow: auto;

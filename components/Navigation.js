@@ -59,6 +59,11 @@ const Navigation = ({className}) => {
           </Link>
         </li>
       </ul>
+      <button>
+        <svg width="62" height="18" viewBox="0 0 62 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M39.3155 9.12903C39.3155 13.4804 35.7959 17 31.4445 17C27.0931 17 23.5735 13.4804 23.5735 9.12903C23.5735 4.77764 27.0931 1.25806 31.4445 1.25806C35.7959 1.25806 39.3155 4.77764 39.3155 9.12903ZM45.2581 9.12903C45.2581 4.77764 48.7777 1.25806 53.1291 1.25806C57.4805 1.25806 61.0001 4.77764 61.0001 9.12903C61.0001 13.4804 57.4805 17 53.1291 17C48.7777 17 45.2581 13.4804 45.2581 9.12903ZM1.88892 9.12903C1.88892 4.77764 5.4085 1.25806 9.75989 1.25806C14.1113 1.25806 17.6309 4.77764 17.6309 9.12903C17.6309 13.4804 14.1113 17 9.75989 17C5.4085 17 1.88892 13.4804 1.88892 9.12903Z" stroke="white" stroke-width="2"/>
+        </svg>
+      </button>
     </nav>
   )
 }
@@ -74,6 +79,7 @@ const StyledNavigation = styled(Navigation)`
     font-weight: bold;
   }
   @media screen and (max-width: 800px) {
+    position: relative;
     .link--inactive {
       display: none;
     }
@@ -81,10 +87,22 @@ const StyledNavigation = styled(Navigation)`
       margin-bottom: 20px;
       width: 100%;
     }
+    .link--active h3, .link--inactive h3{
+      pointer-events: none;
+    }
+    button{
+      background: transparent;
+      border: 0;
+      position: absolute;
 
+      top: 12px;
+      right: 0;
+
+      pointer-events: none;
+    }
   }
   @media screen and (min-width: 801px){
-    svg{
+    button{
       display: none;
     }
   }
