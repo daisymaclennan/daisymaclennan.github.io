@@ -98,6 +98,7 @@ const StyledNavigation = styled(Navigation)`
       background: transparent;
       border: 0;
       position: absolute;
+      padding: 0;
 
       top: 12px;
       right: 0;

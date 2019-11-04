@@ -88,30 +88,10 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 6);
 /******/ })
 /************************************************************************/
 /******/ ({
-
-/***/ "./components/ContactField.js":
-/*!************************************!*\
-  !*** ./components/ContactField.js ***!
-  \************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "styled-components");
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_0__);
-
-const ContactField = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
-  displayName: "ContactField",
-  componentId: "sc-4egp4p-0"
-})(["h5{margin-top:0;margin-bottom:10px;opacity:0.8;}h3{margin-top:0;}@media screen and (max-width:800px){h3{padding-left:0px;font-size:20px;}}@media screen and (min-width:801px){h3{font-weight:bold;margin-left:40px;}}"]);
-/* harmony default export */ __webpack_exports__["default"] = (ContactField);
-
-/***/ }),
 
 /***/ "./components/Content.js":
 /*!*******************************!*\
@@ -130,6 +110,26 @@ const Content = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.wit
   componentId: "sc-1w696lm-0"
 })(["position:fixed;top:0;left:0;.content--inner{overflow-y:scroll;}@media screen and (max-width:800px){padding-left:15px;padding-right:15px;padding-top:130px;.content--inner{height:calc(100vh - 230px);width:calc(100vw - 30px);padding-bottom:150px;padding-top:20px;}}@media screen and (min-width:801px) and (max-width:1440px){padding-left:40px;padding-right:40px;padding-top:200px;.content--inner{height:calc(100vh - 250px);padding-top:5px;}}@media screen and (min-width:1441px){padding-left:70px;padding-right:70px;padding-top:240px;.content--inner{height:calc(100vh - 340px);padding-top:12px;}}@media screen and (min-width:801px){display:flex;}"]);
 /* harmony default export */ __webpack_exports__["default"] = (Content);
+
+/***/ }),
+
+/***/ "./components/ExpandingSections.js":
+/*!*****************************************!*\
+  !*** ./components/ExpandingSections.js ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "styled-components");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_0__);
+
+const ExpandingSections = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
+  displayName: "ExpandingSections",
+  componentId: "sc-1kaecmq-0"
+})([".expandingSection--child{display:none;}.open ~ div{display:block !important;margin-top:20px;}.open > svg{transform:rotate(180deg);}.link--icon > *{pointer-events:none;}@media screen and (max-width:800px){.expandingSection + .expandingSection{margin-top:10px;}.open ~ div{margin-top:15px;}}@media screen and (min-width:801px) and (max-width:1440px){.expandingSection + .expandingSection{margin-top:20px;}.expandingSection{width:calc(100vw - 435px);}}@media screen and (min-width:1441px){.expandingSection + .expandingSection{margin-top:20px;}.expandingSection{width:calc(100vw - 672px);}}.slick-list{padding-top:10px;padding-bottom:10px;}.slick-slide img{width:95%;object-fit:cover;}.slick-dots button::before{color:white;}.slick-dots li.slick-active button:before{opacity:1;color:white;}@media screen and (max-width:800px){.slick-slide img{height:30vw;}}@media screen and (min-width:801px) and (max-width:1400px){.slick-slide img{height:20vw;}}@media screen and (min-width:1401px){.slick-slide img{height:15vw;}}"]);
+/* harmony default export */ __webpack_exports__["default"] = (ExpandingSections);
 
 /***/ }),
 
@@ -590,8 +590,28 @@ const Navigation = ({
 const StyledNavigation = styled_components__WEBPACK_IMPORTED_MODULE_1___default()(Navigation).withConfig({
   displayName: "Navigation__StyledNavigation",
   componentId: "rpc0mw-0"
-})(["ul{margin-top:0;}a{display:block;}.link--active h3{font-weight:bold;}@media screen and (max-width:800px){position:relative;.link--inactive{display:none;opacity:0.9;}.link--active{width:100%;}.link--active h3,.link--inactive h3{pointer-events:none;margin-top:10px;margin-bottom:10px;}button{background:transparent;border:0;position:absolute;top:12px;right:0;}svg{pointer-events:none;}.open ~ li{display:block!important;}}@media screen and (min-width:801px){button{display:none;}}@media screen and (min-width:801px) and (max-width:1440px){min-width:355px;.link--active{background-image:url(\"../../static/bullet.svg\");background-size:20px;background-repeat:no-repeat;background-position:0px 10px;padding-left:40px;}h3{margin-bottom:15px;}}@media screen and (min-width:1441px){min-width:532px;.link--active{background-image:url(\"../../static/bullet.svg\");background-repeat:no-repeat;background-position:0px 15px;padding-left:45px;}h3{margin-bottom:25px;}}@media screen and (min-width:801px){h3{margin-top:0;}}"]);
+})(["ul{margin-top:0;}a{display:block;}.link--active h3{font-weight:bold;}@media screen and (max-width:800px){position:relative;.link--inactive{display:none;opacity:0.9;}.link--active{width:100%;}.link--active h3,.link--inactive h3{pointer-events:none;margin-top:10px;margin-bottom:10px;}button{background:transparent;border:0;position:absolute;padding:0;top:12px;right:0;}svg{pointer-events:none;}.open ~ li{display:block!important;}}@media screen and (min-width:801px){button{display:none;}}@media screen and (min-width:801px) and (max-width:1440px){min-width:355px;.link--active{background-image:url(\"../../static/bullet.svg\");background-size:20px;background-repeat:no-repeat;background-position:0px 10px;padding-left:40px;}h3{margin-bottom:15px;}}@media screen and (min-width:1441px){min-width:532px;.link--active{background-image:url(\"../../static/bullet.svg\");background-repeat:no-repeat;background-position:0px 15px;padding-left:45px;}h3{margin-bottom:25px;}}@media screen and (min-width:801px){h3{margin-top:0;}}"]);
 /* harmony default export */ __webpack_exports__["default"] = (StyledNavigation);
+
+/***/ }),
+
+/***/ "./components/Qualification.js":
+/*!*************************************!*\
+  !*** ./components/Qualification.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "styled-components");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_0__);
+
+const Qualification = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
+  displayName: "Qualification",
+  componentId: "sc-1h3ng6h-0"
+})(["position:relative;.qualification__grade{text-transform:uppercase;font-weight:bold;position:absolute;right:0;top:2px;}.qualification__title{width:90%;}@media screen and (max-width:800px){.qualification__title{margin-bottom:5px;}}@media screen and (min-width:801px){.qualification__title{margin-bottom:15px;}}"]);
+/* harmony default export */ __webpack_exports__["default"] = (Qualification);
 
 /***/ }),
 
@@ -2327,10 +2347,10 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 
 /***/ }),
 
-/***/ "./pages/contact-details/index.js":
-/*!****************************************!*\
-  !*** ./pages/contact-details/index.js ***!
-  \****************************************/
+/***/ "./pages/qualifications/index.js":
+/*!***************************************!*\
+  !*** ./pages/qualifications/index.js ***!
+  \***************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2339,87 +2359,249 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/Layout */ "./components/Layout.js");
-/* harmony import */ var _static_contactDetails__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../static/contactDetails */ "./static/contactDetails.js");
-/* harmony import */ var _components_ContactField__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/ContactField */ "./components/ContactField.js");
-var _jsxFileName = "/Users/daisymaclennan/Projects/my-portfolio/pages/contact-details/index.js";
+/* harmony import */ var _static_qualifications__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../static/qualifications */ "./static/qualifications.js");
+/* harmony import */ var _components_ExpandingSections__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/ExpandingSections */ "./components/ExpandingSections.js");
+/* harmony import */ var _components_Qualification__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/Qualification */ "./components/Qualification.js");
+var _jsxFileName = "/Users/daisymaclennan/Projects/my-portfolio/pages/qualifications/index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-/* harmony default export */ __webpack_exports__["default"] = (() => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 6
-  },
-  __self: undefined
-}, _static_contactDetails__WEBPACK_IMPORTED_MODULE_2__["default"].map(detail => __jsx(_components_ContactField__WEBPACK_IMPORTED_MODULE_3__["default"], {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 8
-  },
-  __self: undefined
-}, __jsx("h5", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 9
-  },
-  __self: undefined
-}, detail.label), __jsx("a", {
-  href: detail.link,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 10
-  },
-  __self: undefined
-}, __jsx("h3", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 11
-  },
-  __self: undefined
-}, detail.value))))));
+
+/* harmony default export */ __webpack_exports__["default"] = (() => {
+  function toggleSection(e) {
+    e.classList.toggle('open');
+  }
+
+  return __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: undefined
+  }, __jsx(_components_ExpandingSections__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: undefined
+  }, __jsx("div", {
+    className: "expandingSection",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: undefined
+  }, __jsx("button", {
+    className: "link--icon",
+    onClick: e => {
+      e.target.classList.toggle("open");
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: undefined
+  }, __jsx("h3", {
+    className: "subheading",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: undefined
+  }, "GCSES"), __jsx("svg", {
+    "aria-hidden": "true",
+    focusable: "false",
+    "data-prefix": "fas",
+    "data-icon": "chevron-down",
+    role: "img",
+    xmlns: "http://www.w3.org/2000/svg",
+    viewBox: "0 0 448 512",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: undefined
+  }, __jsx("path", {
+    fill: "currentColor",
+    d: "M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: undefined
+  }))), __jsx("div", {
+    className: "expandingSection--child",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: undefined
+  }, _static_qualifications__WEBPACK_IMPORTED_MODULE_2__["default"].gcses.map(gcse => __jsx(_components_Qualification__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: undefined
+  }, __jsx("p", {
+    className: "qualification__title",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: undefined
+  }, gcse.title), __jsx("p", {
+    className: "qualification__grade",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: undefined
+  }, gcse.grade))))), __jsx("div", {
+    className: "expandingSection",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: undefined
+  }, __jsx("button", {
+    className: "link--icon",
+    onClick: e => {
+      e.target.classList.toggle("open");
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: undefined
+  }, __jsx("h3", {
+    className: "subheading",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: undefined
+  }, "Software development training"), __jsx("svg", {
+    "aria-hidden": "true",
+    focusable: "false",
+    "data-prefix": "fas",
+    "data-icon": "chevron-down",
+    role: "img",
+    xmlns: "http://www.w3.org/2000/svg",
+    viewBox: "0 0 448 512",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: undefined
+  }, __jsx("path", {
+    fill: "currentColor",
+    d: "M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: undefined
+  }))), __jsx("div", {
+    className: "expandingSection--child",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: undefined
+  }, _static_qualifications__WEBPACK_IMPORTED_MODULE_2__["default"].software.map(soft => __jsx(_components_Qualification__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: undefined
+  }, __jsx("p", {
+    className: "qualification__title",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
+    },
+    __self: undefined
+  }, soft.title), __jsx("p", {
+    className: "qualification__grade",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: undefined
+  }, soft.grade)))))));
+});
 
 /***/ }),
 
-/***/ "./static/contactDetails.js":
+/***/ "./static/qualifications.js":
 /*!**********************************!*\
-  !*** ./static/contactDetails.js ***!
+  !*** ./static/qualifications.js ***!
   \**********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-const contactDetails = [{
-  label: 'Email Address',
-  value: 'daisylouisemaclennan@gmail.com',
-  link: 'mailto:daisylouisemaclennan@gmail.com'
-}, {
-  label: 'Phone number',
-  value: '07932370594',
-  link: 'tel:07932370594'
-}, {
-  label: 'Instagram',
-  value: 'maclennandaisy',
-  link: ''
-}, {
-  label: 'LinkedIn',
-  value: 'daisymaclennan',
-  link: ''
-}];
-/* harmony default export */ __webpack_exports__["default"] = (contactDetails);
+const qualifications = {
+  gcses: [{
+    title: 'Mathematics',
+    grade: 7
+  }, {
+    title: 'Computer Science',
+    grade: 7
+  }, {
+    title: 'Biology',
+    grade: 7
+  }, {
+    title: 'Statistics',
+    grade: 'B'
+  }, {
+    title: 'Graphic Products',
+    grade: 'A'
+  }, {
+    title: 'Food Preparation and Nutrition',
+    grade: 6
+  }, {
+    title: 'General Studies',
+    grade: 7
+  }, {
+    title: 'Chemistry',
+    grade: 5
+  }, {
+    title: 'English Language',
+    grade: 6
+  }, {
+    title: 'English Literature',
+    grade: 5
+  }, {
+    title: 'Physics',
+    grade: 4
+  }, {
+    title: 'Art & Design',
+    grade: 5
+  }],
+  software: [{
+    title: 'BCS Level 3 Certificate in Programming',
+    grade: 'PASS'
+  }, {
+    title: 'BCS Level 3 Certificate in Software Development Context and Methodologies',
+    grade: 'PASS'
+  }]
+};
+/* harmony default export */ __webpack_exports__["default"] = (qualifications);
 
 /***/ }),
 
-/***/ 3:
-/*!**********************************************!*\
-  !*** multi ./pages/contact-details/index.js ***!
-  \**********************************************/
+/***/ 6:
+/*!*********************************************!*\
+  !*** multi ./pages/qualifications/index.js ***!
+  \*********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/daisymaclennan/Projects/my-portfolio/pages/contact-details/index.js */"./pages/contact-details/index.js");
+module.exports = __webpack_require__(/*! /Users/daisymaclennan/Projects/my-portfolio/pages/qualifications/index.js */"./pages/qualifications/index.js");
 
 
 /***/ }),
@@ -2590,4 +2772,4 @@ module.exports = require("url");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=contact-details.js.map
+//# sourceMappingURL=qualifications.js.map
