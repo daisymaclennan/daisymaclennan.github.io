@@ -22531,6 +22531,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement;
         onClick: function onClick() {
           return setActiveImage({
             photoIndex: i.index,
+            project: work.slug,
             isOpen: true
           });
         },
@@ -22545,12 +22546,14 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement;
         alt: "".concat(i.alt),
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 65
+          lineNumber: 66
         },
         __self: this
       }));
     }))))), activeImage.isOpen && __jsx(react_image_lightbox__WEBPACK_IMPORTED_MODULE_7__["default"], {
-      mainSrc: "/static/img/".concat(work.img[activeImage.photoIndex].filename),
+      mainSrc: "/static/img/".concat(_static_myWork__WEBPACK_IMPORTED_MODULE_4__["default"].find(function (e) {
+        return e.slug === activeImage.project;
+      }).img[activeImage.photoIndex].filename),
       onCloseRequest: function onCloseRequest() {
         return setActiveImage({
           isOpen: false
@@ -22560,7 +22563,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement;
       enableZoom: false,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 73
+        lineNumber: 74
       },
       __self: this
     }));

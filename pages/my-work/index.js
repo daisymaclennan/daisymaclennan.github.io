@@ -59,6 +59,7 @@ export default () => {
                   <Slider {...sliderSettings}>
                     {work.img.map(i => (
                       <div onClick={() => setActiveImage({photoIndex: i.index,
+                                                          project: work.slug,
                                                           isOpen: true })}
                            key={i.index}
                       >
@@ -71,7 +72,7 @@ export default () => {
             </ExpandingSections>
             {activeImage.isOpen && (
               <Lightbox
-                mainSrc={`/static/img/${work.img[activeImage.photoIndex].filename}`}
+                mainSrc={`/static/img/${myWork.find(e => e.slug === activeImage.project).img[activeImage.photoIndex].filename}`}
                 onCloseRequest={() => setActiveImage({isOpen: false})}
                 imageCaption={work.img[activeImage.photoIndex].alt}
                 enableZoom={false}

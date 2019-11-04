@@ -2915,6 +2915,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement;
   }), work.img.map(i => __jsx("div", {
     onClick: () => setActiveImage({
       photoIndex: i.index,
+      project: work.slug,
       isOpen: true
     }),
     key: i.index,
@@ -2928,11 +2929,11 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement;
     alt: `${i.alt}`,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65
+      lineNumber: 66
     },
     __self: undefined
   }))))))), activeImage.isOpen && __jsx(react_image_lightbox__WEBPACK_IMPORTED_MODULE_7___default.a, {
-    mainSrc: `/static/img/${work.img[activeImage.photoIndex].filename}`,
+    mainSrc: `/static/img/${_static_myWork__WEBPACK_IMPORTED_MODULE_4__["default"].find(e => e.slug === activeImage.project).img[activeImage.photoIndex].filename}`,
     onCloseRequest: () => setActiveImage({
       isOpen: false
     }),
@@ -2940,7 +2941,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement;
     enableZoom: false,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73
+      lineNumber: 74
     },
     __self: undefined
   })))));
