@@ -108,7 +108,7 @@ __webpack_require__.r(__webpack_exports__);
 const Content = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
   displayName: "Content",
   componentId: "sc-1w696lm-0"
-})(["position:fixed;top:0;left:0;.content--inner{overflow-y:scroll;}@media screen and (max-width:800px){padding-left:15px;padding-right:15px;padding-top:130px;.content--inner{height:calc(100vh - 230px);width:calc(100vw - 30px);padding-bottom:150px;}}@media screen and (min-width:801px) and (max-width:1440px){padding-left:40px;padding-right:40px;padding-top:200px;.content--inner{height:calc(100vh - 250px);padding-top:5px;}}@media screen and (min-width:1441px){padding-left:70px;padding-right:70px;padding-top:240px;.content--inner{height:calc(100vh - 340px);padding-top:12px;}}@media screen and (min-width:801px){display:flex;}"]);
+})(["position:fixed;top:0;left:0;.content--inner{overflow-y:scroll;}@media screen and (max-width:800px){padding-left:15px;padding-right:15px;padding-top:130px;.content--inner{height:calc(100vh - 230px);width:calc(100vw - 30px);padding-bottom:150px;padding-top:20px;}}@media screen and (min-width:801px) and (max-width:1440px){padding-left:40px;padding-right:40px;padding-top:200px;.content--inner{height:calc(100vh - 250px);padding-top:5px;}}@media screen and (min-width:1441px){padding-left:70px;padding-right:70px;padding-top:240px;.content--inner{height:calc(100vh - 340px);padding-top:12px;}}@media screen and (min-width:801px){display:flex;}"]);
 /* harmony default export */ __webpack_exports__["default"] = (Content);
 
 /***/ }),
@@ -433,114 +433,11 @@ const Navigation = ({
       lineNumber: 24
     },
     __self: undefined
-  }, __jsx("li", {
+  }, __jsx("button", {
+    onClick: e => e.target.classList.toggle("open"),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25
-    },
-    __self: undefined
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "/",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26
-    },
-    __self: undefined
-  }, __jsx("a", {
-    className: activeRoute === "personal-statement" ? "link--active" : "link--inactive",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27
-    },
-    __self: undefined
-  }, __jsx("h3", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28
-    },
-    __self: undefined
-  }, "personal statement")))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34
-    },
-    __self: undefined
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "/my-work",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35
-    },
-    __self: undefined
-  }, __jsx("a", {
-    className: activeRoute === "my-work" ? "link--active" : "link--inactive",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36
-    },
-    __self: undefined
-  }, __jsx("h3", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37
-    },
-    __self: undefined
-  }, "my work")))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43
-    },
-    __self: undefined
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "/qualifications",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44
-    },
-    __self: undefined
-  }, __jsx("a", {
-    className: activeRoute === "qualifications" ? "link--active" : "link--inactive",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45
-    },
-    __self: undefined
-  }, __jsx("h3", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46
-    },
-    __self: undefined
-  }, "qualifications")))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 52
-    },
-    __self: undefined
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "/contact-details",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 53
-    },
-    __self: undefined
-  }, __jsx("a", {
-    className: activeRoute === "contact-details" ? "link--active" : "link--inactive",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 54
-    },
-    __self: undefined
-  }, __jsx("h3", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 55
-    },
-    __self: undefined
-  }, "contact details"))))), __jsx("button", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 62
     },
     __self: undefined
   }, __jsx("svg", {
@@ -551,25 +448,129 @@ const Navigation = ({
     xmlns: "http://www.w3.org/2000/svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 26
     },
     __self: undefined
   }, __jsx("path", {
     d: "M39.3155 9.12903C39.3155 13.4804 35.7959 17 31.4445 17C27.0931 17 23.5735 13.4804 23.5735 9.12903C23.5735 4.77764 27.0931 1.25806 31.4445 1.25806C35.7959 1.25806 39.3155 4.77764 39.3155 9.12903ZM45.2581 9.12903C45.2581 4.77764 48.7777 1.25806 53.1291 1.25806C57.4805 1.25806 61.0001 4.77764 61.0001 9.12903C61.0001 13.4804 57.4805 17 53.1291 17C48.7777 17 45.2581 13.4804 45.2581 9.12903ZM1.88892 9.12903C1.88892 4.77764 5.4085 1.25806 9.75989 1.25806C14.1113 1.25806 17.6309 4.77764 17.6309 9.12903C17.6309 13.4804 14.1113 17 9.75989 17C5.4085 17 1.88892 13.4804 1.88892 9.12903Z",
     stroke: "white",
-    "stroke-width": "2",
+    strokeWidth: "2",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64
+      lineNumber: 27
     },
     __self: undefined
-  }))));
+  }))), __jsx("li", {
+    className: activeRoute === "personal-statement" ? "link--active" : "link--inactive",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: undefined
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    href: "/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: undefined
+  }, __jsx("a", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: undefined
+  }, __jsx("h3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: undefined
+  }, "personal statement")))), __jsx("li", {
+    className: activeRoute === "my-work" ? "link--active" : "link--inactive",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: undefined
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    href: "/my-work",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
+    },
+    __self: undefined
+  }, __jsx("a", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: undefined
+  }, __jsx("h3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42
+    },
+    __self: undefined
+  }, "my work")))), __jsx("li", {
+    className: activeRoute === "qualifications" ? "link--active" : "link--inactive",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: undefined
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    href: "/qualifications",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    },
+    __self: undefined
+  }, __jsx("a", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50
+    },
+    __self: undefined
+  }, __jsx("h3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51
+    },
+    __self: undefined
+  }, "qualifications")))), __jsx("li", {
+    className: activeRoute === "contact-details" ? "link--active" : "link--inactive",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57
+    },
+    __self: undefined
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    href: "/contact-details",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58
+    },
+    __self: undefined
+  }, __jsx("a", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59
+    },
+    __self: undefined
+  }, __jsx("h3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60
+    },
+    __self: undefined
+  }, "contact details"))))));
 };
 
 const StyledNavigation = styled_components__WEBPACK_IMPORTED_MODULE_1___default()(Navigation).withConfig({
   displayName: "Navigation__StyledNavigation",
   componentId: "rpc0mw-0"
-})(["ul{margin-top:0;}a{display:block;}.link--active h3{font-weight:bold;}@media screen and (max-width:800px){position:relative;.link--inactive{display:none;}.link--active{margin-bottom:20px;width:100%;}.link--active h3,.link--inactive h3{pointer-events:none;}button{background:transparent;border:0;position:absolute;top:12px;right:0;pointer-events:none;}}@media screen and (min-width:801px){button{display:none;}}@media screen and (min-width:801px) and (max-width:1440px){min-width:355px;.link--active{background-image:url(\"../../static/bullet.svg\");background-size:20px;background-repeat:no-repeat;background-position:0px 10px;padding-left:40px;}h3{margin-bottom:15px;}}@media screen and (min-width:1441px){min-width:532px;.link--active{background-image:url(\"../../static/bullet.svg\");background-repeat:no-repeat;background-position:0px 15px;padding-left:45px;}h3{margin-bottom:25px;}}@media screen and (min-width:801px){h3{margin-top:0;}}"]);
+})(["ul{margin-top:0;}a{display:block;}.link--active h3{font-weight:bold;}@media screen and (max-width:800px){position:relative;.link--inactive{display:none;opacity:0.9;}.link--active{width:100%;}.link--active h3,.link--inactive h3{pointer-events:none;margin-top:10px;margin-bottom:10px;}button{background:transparent;border:0;position:absolute;top:12px;right:0;}svg{pointer-events:none;}.open ~ li{display:block!important;}}@media screen and (min-width:801px){button{display:none;}}@media screen and (min-width:801px) and (max-width:1440px){min-width:355px;.link--active{background-image:url(\"../../static/bullet.svg\");background-size:20px;background-repeat:no-repeat;background-position:0px 10px;padding-left:40px;}h3{margin-bottom:15px;}}@media screen and (min-width:1441px){min-width:532px;.link--active{background-image:url(\"../../static/bullet.svg\");background-repeat:no-repeat;background-position:0px 15px;padding-left:45px;}h3{margin-bottom:25px;}}@media screen and (min-width:801px){h3{margin-top:0;}}"]);
 /* harmony default export */ __webpack_exports__["default"] = (StyledNavigation);
 
 /***/ }),

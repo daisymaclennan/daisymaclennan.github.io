@@ -88,10 +88,30 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
+
+/***/ "./components/ContactField.js":
+/*!************************************!*\
+  !*** ./components/ContactField.js ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "styled-components");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_0__);
+
+const ContactField = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
+  displayName: "ContactField",
+  componentId: "sc-4egp4p-0"
+})(["h5{margin-top:0;margin-bottom:10px;opacity:0.8;}h3{margin-top:0;}@media screen and (max-width:800px){h3{padding-left:0px;font-size:20px;}}@media screen and (min-width:801px){h3{font-weight:bold;margin-left:40px;}}"]);
+/* harmony default export */ __webpack_exports__["default"] = (ContactField);
+
+/***/ }),
 
 /***/ "./components/Content.js":
 /*!*******************************!*\
@@ -108,28 +128,8 @@ __webpack_require__.r(__webpack_exports__);
 const Content = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
   displayName: "Content",
   componentId: "sc-1w696lm-0"
-})(["position:fixed;top:0;left:0;.content--inner{overflow-y:scroll;}@media screen and (max-width:800px){padding-left:15px;padding-right:15px;padding-top:130px;.content--inner{height:calc(100vh - 230px);width:calc(100vw - 30px);padding-bottom:150px;}}@media screen and (min-width:801px) and (max-width:1440px){padding-left:40px;padding-right:40px;padding-top:200px;.content--inner{height:calc(100vh - 250px);padding-top:5px;}}@media screen and (min-width:1441px){padding-left:70px;padding-right:70px;padding-top:240px;.content--inner{height:calc(100vh - 340px);padding-top:12px;}}@media screen and (min-width:801px){display:flex;}"]);
+})(["position:fixed;top:0;left:0;.content--inner{overflow-y:scroll;}@media screen and (max-width:800px){padding-left:15px;padding-right:15px;padding-top:130px;.content--inner{height:calc(100vh - 230px);width:calc(100vw - 30px);padding-bottom:150px;padding-top:20px;}}@media screen and (min-width:801px) and (max-width:1440px){padding-left:40px;padding-right:40px;padding-top:200px;.content--inner{height:calc(100vh - 250px);padding-top:5px;}}@media screen and (min-width:1441px){padding-left:70px;padding-right:70px;padding-top:240px;.content--inner{height:calc(100vh - 340px);padding-top:12px;}}@media screen and (min-width:801px){display:flex;}"]);
 /* harmony default export */ __webpack_exports__["default"] = (Content);
-
-/***/ }),
-
-/***/ "./components/ExpandingSections.js":
-/*!*****************************************!*\
-  !*** ./components/ExpandingSections.js ***!
-  \*****************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "styled-components");
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_0__);
-
-const ExpandingSections = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
-  displayName: "ExpandingSections",
-  componentId: "sc-1kaecmq-0"
-})([".expandingSection--child{display:none;}.open ~ div{display:block !important;margin-top:20px;}.open > svg{transform:rotate(180deg);}.link--icon > *{pointer-events:none;}@media screen and (max-width:800px){.expandingSection + .expandingSection{margin-top:10px;}.open ~ div{margin-top:15px;}}@media screen and (min-width:801px) and (max-width:1440px){.expandingSection + .expandingSection{margin-top:20px;}.expandingSection{width:calc(100vw - 435px);}}@media screen and (min-width:1441px){.expandingSection + .expandingSection{margin-top:20px;}.expandingSection{width:calc(100vw - 672px);}}.slick-list{padding-top:10px;padding-bottom:10px;}.slick-slide img{width:95%;object-fit:cover;}.slick-dots button::before{color:white;}.slick-dots li.slick-active button:before{opacity:1;color:white;}@media screen and (max-width:800px){.slick-slide img{height:30vw;}}@media screen and (min-width:801px) and (max-width:1400px){.slick-slide img{height:20vw;}}@media screen and (min-width:1401px){.slick-slide img{height:15vw;}}"]);
-/* harmony default export */ __webpack_exports__["default"] = (ExpandingSections);
 
 /***/ }),
 
@@ -392,370 +392,6 @@ const Layout = ({
 
 /***/ }),
 
-/***/ "./components/LightboxStyle.js":
-/*!*************************************!*\
-  !*** ./components/LightboxStyle.js ***!
-  \*************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "styled-components");
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_0__);
-
-const LightboxStyle = styled_components__WEBPACK_IMPORTED_MODULE_0__["createGlobalStyle"]`
-@keyframes closeWindow {
-0% {
-  opacity: 1;
-}
-100% {
-  opacity: 0;
-}
-}
-
-.ril__outer {
-background-color: rgba(0, 0, 0, 0.85);
-outline: none;
-top: 0;
-left: 0;
-right: 0;
-bottom: 0;
-z-index: 1000;
-width: 100%;
-height: 100%;
--ms-content-zooming: none;
--ms-user-select: none;
--ms-touch-select: none;
-touch-action: none;
-}
-
-.ril__outerClosing {
-opacity: 0;
-}
-
-.ril__inner {
-position: absolute;
-top: 0;
-left: 0;
-right: 0;
-bottom: 0;
-}
-
-.ril__image,
-.ril__imagePrev,
-.ril__imageNext {
-position: absolute;
-top: 0;
-right: 0;
-bottom: 0;
-left: 0;
-margin: auto;
-max-width: none;
--ms-content-zooming: none;
--ms-user-select: none;
--ms-touch-select: none;
-touch-action: none;
-}
-
-.ril__imageDiscourager {
-background-repeat: no-repeat;
-background-position: center;
-background-size: contain;
-}
-
-.ril__navButtons {
-border: none;
-position: absolute;
-top: 0;
-bottom: 0;
-width: 20px;
-height: 34px;
-padding: 40px 30px;
-margin: auto;
-cursor: pointer;
-opacity: 0.7;
-}
-.ril__navButtons:hover {
-opacity: 1;
-}
-.ril__navButtons:active {
-opacity: 0.7;
-}
-
-.ril__navButtonPrev {
-left: 0;
-background: rgba(0, 0, 0, 0.2)
-  url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgd2lkdGg9IjIwIiBoZWlnaHQ9IjM0Ij48cGF0aCBkPSJtIDE5LDMgLTIsLTIgLTE2LDE2IDE2LDE2IDEsLTEgLTE1LC0xNSAxNSwtMTUgeiIgZmlsbD0iI0ZGRiIvPjwvc3ZnPg==')
-  no-repeat center;
-}
-
-.ril__navButtonNext {
-right: 0;
-background: rgba(0, 0, 0, 0.2)
-  url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgd2lkdGg9IjIwIiBoZWlnaHQ9IjM0Ij48cGF0aCBkPSJtIDEsMyAyLC0yIDE2LDE2IC0xNiwxNiAtMSwtMSAxNSwtMTUgLTE1LC0xNSB6IiBmaWxsPSIjRkZGIi8+PC9zdmc+')
-  no-repeat center;
-}
-
-.ril__downloadBlocker {
-position: absolute;
-top: 0;
-left: 0;
-right: 0;
-bottom: 0;
-background-image: url('data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7');
-background-size: cover;
-}
-
-.ril__caption,
-.ril__toolbar {
-background-color: rgba(0, 0, 0, 0.5);
-position: absolute;
-left: 0;
-right: 0;
-display: flex;
-justify-content: space-between;
-}
-
-.ril__caption {
-font-family: Raleway;
-letter-spacing: 0.03em;
-bottom: 0;
-max-height: 150px;
-overflow: auto;
-}
-
-.ril__captionContent {
-padding: 10px 20px;
-color: #fff;
-}
-
-.ril__toolbar {
-top: 0;
-height: 50px;
-}
-
-.ril__toolbarSide {
-height: 50px;
-margin: 0;
-}
-
-.ril__toolbarLeftSide {
-padding-left: 20px;
-padding-right: 0;
-flex: 0 1 auto;
-overflow: hidden;
-text-overflow: ellipsis;
-}
-
-.ril__toolbarRightSide {
-padding-left: 0;
-padding-right: 20px;
-flex: 0 0 auto;
-}
-
-.ril__toolbarItem {
-display: inline-block;
-line-height: 50px;
-padding: 0;
-color: #fff;
-font-size: 120%;
-max-width: 100%;
-overflow: hidden;
-text-overflow: ellipsis;
-white-space: nowrap;
-}
-
-.ril__toolbarItemChild {
-vertical-align: middle;
-}
-
-.ril__builtinButton {
-width: 40px;
-height: 35px;
-cursor: pointer;
-border: none;
-opacity: 0.7;
-}
-.ril__builtinButton:hover {
-opacity: 1;
-}
-.ril__builtinButton:active {
-outline: none;
-}
-
-.ril__builtinButtonDisabled {
-cursor: default;
-opacity: 0.5;
-}
-.ril__builtinButtonDisabled:hover {
-opacity: 0.5;
-}
-
-.ril__closeButton {
-background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIj48cGF0aCBkPSJtIDEsMyAxLjI1LC0xLjI1IDcuNSw3LjUgNy41LC03LjUgMS4yNSwxLjI1IC03LjUsNy41IDcuNSw3LjUgLTEuMjUsMS4yNSAtNy41LC03LjUgLTcuNSw3LjUgLTEuMjUsLTEuMjUgNy41LC03LjUgLTcuNSwtNy41IHoiIGZpbGw9IiNGRkYiLz48L3N2Zz4=')
-  no-repeat center;
-}
-
-.ril__zoomInButton {
-background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCI+PGcgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCI+PHBhdGggZD0iTTEgMTlsNi02Ii8+PHBhdGggZD0iTTkgOGg2Ii8+PHBhdGggZD0iTTEyIDV2NiIvPjwvZz48Y2lyY2xlIGN4PSIxMiIgY3k9IjgiIHI9IjciIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9zdmc+')
-  no-repeat center;
-}
-
-.ril__zoomOutButton {
-background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCI+PGcgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCI+PHBhdGggZD0iTTEgMTlsNi02Ii8+PHBhdGggZD0iTTkgOGg2Ii8+PC9nPjxjaXJjbGUgY3g9IjEyIiBjeT0iOCIgcj0iNyIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjIiLz48L3N2Zz4=')
-  no-repeat center;
-}
-
-.ril__outerAnimating {
-animation-name: closeWindow;
-}
-
-@keyframes pointFade {
-0%,
-19.999%,
-100% {
-  opacity: 0;
-}
-20% {
-  opacity: 1;
-}
-}
-
-.ril__loadingCircle {
-width: 60px;
-height: 60px;
-position: relative;
-}
-
-.ril__loadingCirclePoint {
-width: 100%;
-height: 100%;
-position: absolute;
-left: 0;
-top: 0;
-}
-.ril__loadingCirclePoint::before {
-content: '';
-display: block;
-margin: 0 auto;
-width: 11%;
-height: 30%;
-background-color: #fff;
-border-radius: 30%;
-animation: pointFade 800ms infinite ease-in-out both;
-}
-.ril__loadingCirclePoint:nth-of-type(1) {
-transform: rotate(0deg);
-}
-.ril__loadingCirclePoint:nth-of-type(7) {
-transform: rotate(180deg);
-}
-.ril__loadingCirclePoint:nth-of-type(1)::before,
-.ril__loadingCirclePoint:nth-of-type(7)::before {
-animation-delay: -800ms;
-}
-.ril__loadingCirclePoint:nth-of-type(2) {
-transform: rotate(30deg);
-}
-.ril__loadingCirclePoint:nth-of-type(8) {
-transform: rotate(210deg);
-}
-.ril__loadingCirclePoint:nth-of-type(2)::before,
-.ril__loadingCirclePoint:nth-of-type(8)::before {
-animation-delay: -666ms;
-}
-.ril__loadingCirclePoint:nth-of-type(3) {
-transform: rotate(60deg);
-}
-.ril__loadingCirclePoint:nth-of-type(9) {
-transform: rotate(240deg);
-}
-.ril__loadingCirclePoint:nth-of-type(3)::before,
-.ril__loadingCirclePoint:nth-of-type(9)::before {
-animation-delay: -533ms;
-}
-.ril__loadingCirclePoint:nth-of-type(4) {
-transform: rotate(90deg);
-}
-.ril__loadingCirclePoint:nth-of-type(10) {
-transform: rotate(270deg);
-}
-.ril__loadingCirclePoint:nth-of-type(4)::before,
-.ril__loadingCirclePoint:nth-of-type(10)::before {
-animation-delay: -400ms;
-}
-.ril__loadingCirclePoint:nth-of-type(5) {
-transform: rotate(120deg);
-}
-.ril__loadingCirclePoint:nth-of-type(11) {
-transform: rotate(300deg);
-}
-.ril__loadingCirclePoint:nth-of-type(5)::before,
-.ril__loadingCirclePoint:nth-of-type(11)::before {
-animation-delay: -266ms;
-}
-.ril__loadingCirclePoint:nth-of-type(6) {
-transform: rotate(150deg);
-}
-.ril__loadingCirclePoint:nth-of-type(12) {
-transform: rotate(330deg);
-}
-.ril__loadingCirclePoint:nth-of-type(6)::before,
-.ril__loadingCirclePoint:nth-of-type(12)::before {
-animation-delay: -133ms;
-}
-.ril__loadingCirclePoint:nth-of-type(7) {
-transform: rotate(180deg);
-}
-.ril__loadingCirclePoint:nth-of-type(13) {
-transform: rotate(360deg);
-}
-.ril__loadingCirclePoint:nth-of-type(7)::before,
-.ril__loadingCirclePoint:nth-of-type(13)::before {
-animation-delay: 0ms;
-}
-
-.ril__loadingContainer {
-position: absolute;
-top: 0;
-right: 0;
-bottom: 0;
-left: 0;
-}
-.ril__imagePrev .ril__loadingContainer,
-.ril__imageNext .ril__loadingContainer {
-display: none;
-}
-
-.ril__errorContainer {
-position: absolute;
-top: 0;
-right: 0;
-bottom: 0;
-left: 0;
-display: flex;
-align-items: center;
-justify-content: center;
-color: #fff;
-}
-.ril__imagePrev .ril__errorContainer,
-.ril__imageNext .ril__errorContainer {
-display: none;
-}
-
-.ril__loadingContainer__icon {
-color: #fff;
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translateX(-50%) translateY(-50%);
-}
-`;
-/* harmony default export */ __webpack_exports__["default"] = (LightboxStyle);
-
-/***/ }),
-
 /***/ "./components/Navigation.js":
 /*!**********************************!*\
   !*** ./components/Navigation.js ***!
@@ -817,114 +453,11 @@ const Navigation = ({
       lineNumber: 24
     },
     __self: undefined
-  }, __jsx("li", {
+  }, __jsx("button", {
+    onClick: e => e.target.classList.toggle("open"),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25
-    },
-    __self: undefined
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "/",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26
-    },
-    __self: undefined
-  }, __jsx("a", {
-    className: activeRoute === "personal-statement" ? "link--active" : "link--inactive",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27
-    },
-    __self: undefined
-  }, __jsx("h3", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28
-    },
-    __self: undefined
-  }, "personal statement")))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34
-    },
-    __self: undefined
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "/my-work",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35
-    },
-    __self: undefined
-  }, __jsx("a", {
-    className: activeRoute === "my-work" ? "link--active" : "link--inactive",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36
-    },
-    __self: undefined
-  }, __jsx("h3", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37
-    },
-    __self: undefined
-  }, "my work")))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43
-    },
-    __self: undefined
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "/qualifications",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44
-    },
-    __self: undefined
-  }, __jsx("a", {
-    className: activeRoute === "qualifications" ? "link--active" : "link--inactive",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45
-    },
-    __self: undefined
-  }, __jsx("h3", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46
-    },
-    __self: undefined
-  }, "qualifications")))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 52
-    },
-    __self: undefined
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "/contact-details",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 53
-    },
-    __self: undefined
-  }, __jsx("a", {
-    className: activeRoute === "contact-details" ? "link--active" : "link--inactive",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 54
-    },
-    __self: undefined
-  }, __jsx("h3", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 55
-    },
-    __self: undefined
-  }, "contact details"))))), __jsx("button", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 62
     },
     __self: undefined
   }, __jsx("svg", {
@@ -935,46 +468,130 @@ const Navigation = ({
     xmlns: "http://www.w3.org/2000/svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 26
     },
     __self: undefined
   }, __jsx("path", {
     d: "M39.3155 9.12903C39.3155 13.4804 35.7959 17 31.4445 17C27.0931 17 23.5735 13.4804 23.5735 9.12903C23.5735 4.77764 27.0931 1.25806 31.4445 1.25806C35.7959 1.25806 39.3155 4.77764 39.3155 9.12903ZM45.2581 9.12903C45.2581 4.77764 48.7777 1.25806 53.1291 1.25806C57.4805 1.25806 61.0001 4.77764 61.0001 9.12903C61.0001 13.4804 57.4805 17 53.1291 17C48.7777 17 45.2581 13.4804 45.2581 9.12903ZM1.88892 9.12903C1.88892 4.77764 5.4085 1.25806 9.75989 1.25806C14.1113 1.25806 17.6309 4.77764 17.6309 9.12903C17.6309 13.4804 14.1113 17 9.75989 17C5.4085 17 1.88892 13.4804 1.88892 9.12903Z",
     stroke: "white",
-    "stroke-width": "2",
+    strokeWidth: "2",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64
+      lineNumber: 27
     },
     __self: undefined
-  }))));
+  }))), __jsx("li", {
+    className: activeRoute === "personal-statement" ? "link--active" : "link--inactive",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: undefined
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    href: "/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: undefined
+  }, __jsx("a", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: undefined
+  }, __jsx("h3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: undefined
+  }, "personal statement")))), __jsx("li", {
+    className: activeRoute === "my-work" ? "link--active" : "link--inactive",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: undefined
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    href: "/my-work",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
+    },
+    __self: undefined
+  }, __jsx("a", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: undefined
+  }, __jsx("h3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42
+    },
+    __self: undefined
+  }, "my work")))), __jsx("li", {
+    className: activeRoute === "qualifications" ? "link--active" : "link--inactive",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: undefined
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    href: "/qualifications",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    },
+    __self: undefined
+  }, __jsx("a", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50
+    },
+    __self: undefined
+  }, __jsx("h3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51
+    },
+    __self: undefined
+  }, "qualifications")))), __jsx("li", {
+    className: activeRoute === "contact-details" ? "link--active" : "link--inactive",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57
+    },
+    __self: undefined
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    href: "/contact-details",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58
+    },
+    __self: undefined
+  }, __jsx("a", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59
+    },
+    __self: undefined
+  }, __jsx("h3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60
+    },
+    __self: undefined
+  }, "contact details"))))));
 };
 
 const StyledNavigation = styled_components__WEBPACK_IMPORTED_MODULE_1___default()(Navigation).withConfig({
   displayName: "Navigation__StyledNavigation",
   componentId: "rpc0mw-0"
-})(["ul{margin-top:0;}a{display:block;}.link--active h3{font-weight:bold;}@media screen and (max-width:800px){position:relative;.link--inactive{display:none;}.link--active{margin-bottom:20px;width:100%;}.link--active h3,.link--inactive h3{pointer-events:none;}button{background:transparent;border:0;position:absolute;top:12px;right:0;pointer-events:none;}}@media screen and (min-width:801px){button{display:none;}}@media screen and (min-width:801px) and (max-width:1440px){min-width:355px;.link--active{background-image:url(\"../../static/bullet.svg\");background-size:20px;background-repeat:no-repeat;background-position:0px 10px;padding-left:40px;}h3{margin-bottom:15px;}}@media screen and (min-width:1441px){min-width:532px;.link--active{background-image:url(\"../../static/bullet.svg\");background-repeat:no-repeat;background-position:0px 15px;padding-left:45px;}h3{margin-bottom:25px;}}@media screen and (min-width:801px){h3{margin-top:0;}}"]);
+})(["ul{margin-top:0;}a{display:block;}.link--active h3{font-weight:bold;}@media screen and (max-width:800px){position:relative;.link--inactive{display:none;opacity:0.9;}.link--active{width:100%;}.link--active h3,.link--inactive h3{pointer-events:none;margin-top:10px;margin-bottom:10px;}button{background:transparent;border:0;position:absolute;top:12px;right:0;}svg{pointer-events:none;}.open ~ li{display:block!important;}}@media screen and (min-width:801px){button{display:none;}}@media screen and (min-width:801px) and (max-width:1440px){min-width:355px;.link--active{background-image:url(\"../../static/bullet.svg\");background-size:20px;background-repeat:no-repeat;background-position:0px 10px;padding-left:40px;}h3{margin-bottom:15px;}}@media screen and (min-width:1441px){min-width:532px;.link--active{background-image:url(\"../../static/bullet.svg\");background-repeat:no-repeat;background-position:0px 15px;padding-left:45px;}h3{margin-bottom:25px;}}@media screen and (min-width:801px){h3{margin-top:0;}}"]);
 /* harmony default export */ __webpack_exports__["default"] = (StyledNavigation);
-
-/***/ }),
-
-/***/ "./components/Projects.js":
-/*!********************************!*\
-  !*** ./components/Projects.js ***!
-  \********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "styled-components");
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_0__);
-
-const Projects = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
-  displayName: "Projects",
-  componentId: "sc-1c40c6z-0"
-})([".project > h5{text-align:right;margin-left:auto;margin:0;}.project + .project{margin-top:40px;}@media screen and (max-width:800px){.project{width:calc(100vw - 30px);}.subheading{font-size:18px;}}@media screen and (min-width:801px) and (max-width:1440px){.project{width:calc(100vw - 435px);}}@media screen and (min-width:1441px){.project{width:calc(100vw - 672px);}}"]);
-/* harmony default export */ __webpack_exports__["default"] = (Projects);
 
 /***/ }),
 
@@ -1063,39 +680,6 @@ module.exports = __webpack_require__(/*! core-js/library/fn/promise */ "core-js/
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(/*! core-js/library/fn/weak-map */ "core-js/library/fn/weak-map");
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js":
-/*!********************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js ***!
-  \********************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _extends; });
-/* harmony import */ var _core_js_object_assign__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/assign */ "./node_modules/@babel/runtime-corejs2/core-js/object/assign.js");
-/* harmony import */ var _core_js_object_assign__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_assign__WEBPACK_IMPORTED_MODULE_0__);
-
-function _extends() {
-  _extends = _core_js_object_assign__WEBPACK_IMPORTED_MODULE_0___default.a || function (target) {
-    for (var i = 1; i < arguments.length; i++) {
-      var source = arguments[i];
-
-      for (var key in source) {
-        if (Object.prototype.hasOwnProperty.call(source, key)) {
-          target[key] = source[key];
-        }
-      }
-    }
-
-    return target;
-  };
-
-  return _extends.apply(this, arguments);
-}
 
 /***/ }),
 
@@ -2743,310 +2327,99 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 
 /***/ }),
 
-/***/ "./pages/my-work/index.js":
-/*!********************************!*\
-  !*** ./pages/my-work/index.js ***!
-  \********************************/
+/***/ "./pages/contact-details/index.js":
+/*!****************************************!*\
+  !*** ./pages/contact-details/index.js ***!
+  \****************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/extends */ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/Layout */ "./components/Layout.js");
-/* harmony import */ var _components_ExpandingSections__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/ExpandingSections */ "./components/ExpandingSections.js");
-/* harmony import */ var _components_Projects__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/Projects */ "./components/Projects.js");
-/* harmony import */ var _static_myWork__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../static/myWork */ "./static/myWork.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-slick */ "react-slick");
-/* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_slick__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var react_image_lightbox__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-image-lightbox */ "react-image-lightbox");
-/* harmony import */ var react_image_lightbox__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_image_lightbox__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _components_LightboxStyle__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../components/LightboxStyle */ "./components/LightboxStyle.js");
+/* harmony import */ var _static_contactDetails__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../static/contactDetails */ "./static/contactDetails.js");
+/* harmony import */ var _components_ContactField__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/ContactField */ "./components/ContactField.js");
+var _jsxFileName = "/Users/daisymaclennan/Projects/my-portfolio/pages/contact-details/index.js";
 
-var _jsxFileName = "/Users/daisymaclennan/Projects/my-portfolio/pages/my-work/index.js";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement;
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-
-
-
-
-
-/* harmony default export */ __webpack_exports__["default"] = (() => {
-  const {
-    0: activeDrops,
-    1: setActiveDrops
-  } = Object(react__WEBPACK_IMPORTED_MODULE_5__["useState"])([]);
-  var sliderSettings = {
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    arrows: false,
-    dots: true
-  };
-  const {
-    0: activeImage,
-    1: setActiveImage
-  } = Object(react__WEBPACK_IMPORTED_MODULE_5__["useState"])({
-    photoIndex: 0,
-    isOpen: false
-  });
-  return __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27
-    },
-    __self: undefined
-  }, __jsx(_components_LightboxStyle__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28
-    },
-    __self: undefined
-  }), __jsx(_components_Projects__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29
-    },
-    __self: undefined
-  }, _static_myWork__WEBPACK_IMPORTED_MODULE_4__["default"].map(work => __jsx("div", {
-    className: "project",
-    key: work.slug,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32
-    },
-    __self: undefined
-  }, __jsx("h3", {
-    className: "subheading",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33
-    },
-    __self: undefined
-  }, work.title), __jsx("h5", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36
-    },
-    __self: undefined
-  }, work.time_period), __jsx(_components_ExpandingSections__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40
-    },
-    __self: undefined
-  }, __jsx("div", {
-    className: `expandingSection`,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41
-    },
-    __self: undefined
-  }, __jsx("button", {
-    className: "link--icon",
-    onClick: e => {
-      e.target.classList.toggle("open");
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42
-    },
-    __self: undefined
-  }, "Read more", __jsx("svg", {
-    "aria-hidden": "true",
-    focusable: "false",
-    "data-prefix": "fas",
-    "data-icon": "chevron-down",
-    role: "img",
-    xmlns: "http://www.w3.org/2000/svg",
-    viewBox: "0 0 448 512",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44
-    },
-    __self: undefined
-  }, __jsx("path", {
-    fill: "currentColor",
-    d: "M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44
-    },
-    __self: undefined
-  }))), __jsx("div", {
-    class: "expandingSection--child",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46
-    },
-    __self: undefined
-  }, __jsx("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 47
-    },
-    __self: undefined
-  }, work.description))), __jsx("div", {
-    className: "expandingSection",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 53
-    },
-    __self: undefined
-  }, __jsx("button", {
-    className: "link--icon",
-    onClick: e => {
-      e.target.classList.toggle("open");
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 54
-    },
-    __self: undefined
-  }, "Gallery", __jsx("svg", {
-    "aria-hidden": "true",
-    focusable: "false",
-    "data-prefix": "fas",
-    "data-icon": "chevron-down",
-    role: "img",
-    xmlns: "http://www.w3.org/2000/svg",
-    viewBox: "0 0 448 512",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 56
-    },
-    __self: undefined
-  }, __jsx("path", {
-    fill: "currentColor",
-    d: "M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 56
-    },
-    __self: undefined
-  }))), __jsx("div", {
-    className: "expandingSection--child",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 58
-    },
-    __self: undefined
-  }, __jsx(react_slick__WEBPACK_IMPORTED_MODULE_6___default.a, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, sliderSettings, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 59
-    },
-    __self: undefined
-  }), work.img.map(i => __jsx("div", {
-    onClick: () => setActiveImage({
-      photoIndex: i.index,
-      project: work.slug,
-      isOpen: true
-    }),
-    key: i.index,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 61
-    },
-    __self: undefined
-  }, __jsx("img", {
-    src: `/static/img/${i.filename}`,
-    alt: `${i.alt}`,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 66
-    },
-    __self: undefined
-  }))))))), activeImage.isOpen && __jsx(react_image_lightbox__WEBPACK_IMPORTED_MODULE_7___default.a, {
-    mainSrc: `/static/img/${_static_myWork__WEBPACK_IMPORTED_MODULE_4__["default"].find(e => e.slug === activeImage.project).img[activeImage.photoIndex].filename}`,
-    onCloseRequest: () => setActiveImage({
-      isOpen: false
-    }),
-    imageCaption: _static_myWork__WEBPACK_IMPORTED_MODULE_4__["default"].find(e => e.slug === activeImage.project).img[activeImage.photoIndex].alt,
-    enableZoom: false,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 74
-    },
-    __self: undefined
-  })))));
-});
+/* harmony default export */ __webpack_exports__["default"] = (() => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 6
+  },
+  __self: undefined
+}, _static_contactDetails__WEBPACK_IMPORTED_MODULE_2__["default"].map(detail => __jsx(_components_ContactField__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 8
+  },
+  __self: undefined
+}, __jsx("h5", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 9
+  },
+  __self: undefined
+}, detail.label), __jsx("a", {
+  href: detail.link,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 10
+  },
+  __self: undefined
+}, __jsx("h3", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 11
+  },
+  __self: undefined
+}, detail.value))))));
 
 /***/ }),
 
-/***/ "./static/myWork.js":
-/*!**************************!*\
-  !*** ./static/myWork.js ***!
-  \**************************/
+/***/ "./static/contactDetails.js":
+/*!**********************************!*\
+  !*** ./static/contactDetails.js ***!
+  \**********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-const myWork = [{
-  title: 'Word muncher',
-  slug: 'word-muncher',
-  description: 'Word Muncher is a rich text editor made using React, Next.js and Draft.js. The purpose of this project was to create a note app which removes all the unessacary tools you get when using programs such as Google Docs while still maintaining the professional appearance you can achieve with them.',
-  time_period: 'October 2019',
-  img: [{
-    index: 0,
-    alt: 'Word processing section of word muncher',
-    filename: 'word-one.png'
-  }, {
-    index: 1,
-    alt: 'Sign in section of word muncher with an error visible',
-    filename: 'word-two.png'
-  }, {
-    index: 2,
-    alt: 'Register section of word muncher with an error visible',
-    filename: 'word-three.png'
-  }, {
-    index: 3,
-    alt: 'Register section of word muncher without errors',
-    filename: 'word-four.png'
-  }]
+const contactDetails = [{
+  label: 'Email Address',
+  value: 'daisylouisemaclennan@gmail.com',
+  link: 'mailto:daisylouisemaclennan@gmail.com'
 }, {
-  title: 'Creative Portsmouth',
-  slug: 'creative-portsmouth',
-  description: 'Creative Portsmouth is a geolocation app designed to showcase the creative and cultural organisations around the city of Portsmouth.',
-  time_period: 'June 2019 to August 2019',
-  img: [{
-    index: 0,
-    alt: 'Sign in box for Creative Portsmouth',
-    filename: 'cp-one.png'
-  }, {
-    index: 1,
-    alt: 'Home page of Creative Portsmouth',
-    filename: 'cp-two.png'
-  }, {
-    index: 2,
-    alt: 'Home page with new map colours for Creative Portsmouth',
-    filename: 'cp-three.png'
-  }, {
-    index: 3,
-    alt: 'Homepage with organisation tab open for Creative Portsmouth',
-    filename: 'cp-four.png'
-  }, {
-    index: 4,
-    alt: 'Homepage with organisation tab open for Creative Portsmouth',
-    filename: 'cp-five.png'
-  }]
+  label: 'Phone number',
+  value: '07932370594',
+  link: 'tel:07932370594'
+}, {
+  label: 'Instagram',
+  value: 'maclennandaisy',
+  link: ''
+}, {
+  label: 'LinkedIn',
+  value: 'daisymaclennan',
+  link: ''
 }];
-/* harmony default export */ __webpack_exports__["default"] = (myWork);
+/* harmony default export */ __webpack_exports__["default"] = (contactDetails);
 
 /***/ }),
 
-/***/ 4:
-/*!**************************************!*\
-  !*** multi ./pages/my-work/index.js ***!
-  \**************************************/
+/***/ 3:
+/*!**********************************************!*\
+  !*** multi ./pages/contact-details/index.js ***!
+  \**********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/daisymaclennan/Projects/my-portfolio/pages/my-work/index.js */"./pages/my-work/index.js");
+module.exports = __webpack_require__(/*! /Users/daisymaclennan/Projects/my-portfolio/pages/contact-details/index.js */"./pages/contact-details/index.js");
 
 
 /***/ }),
@@ -3183,17 +2556,6 @@ module.exports = require("react");
 
 /***/ }),
 
-/***/ "react-image-lightbox":
-/*!***************************************!*\
-  !*** external "react-image-lightbox" ***!
-  \***************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react-image-lightbox");
-
-/***/ }),
-
 /***/ "react-is":
 /*!***************************!*\
   !*** external "react-is" ***!
@@ -3202,17 +2564,6 @@ module.exports = require("react-image-lightbox");
 /***/ (function(module, exports) {
 
 module.exports = require("react-is");
-
-/***/ }),
-
-/***/ "react-slick":
-/*!******************************!*\
-  !*** external "react-slick" ***!
-  \******************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react-slick");
 
 /***/ }),
 
@@ -3239,4 +2590,4 @@ module.exports = require("url");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=my-work.js.map
+//# sourceMappingURL=contact-details.js.map

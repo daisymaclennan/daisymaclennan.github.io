@@ -17,6 +17,7 @@ const Content = styled.div`
     height: calc(100vh - 230px);
     width: calc(100vw - 30px);
     padding-bottom: 150px;
+    padding-top: 20px;
   }
   }
   @media screen and (min-width: 801px) and (max-width: 1440px) {
