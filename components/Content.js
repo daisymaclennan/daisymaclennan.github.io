@@ -7,6 +7,10 @@ const Content = styled.div`
   .content--inner {
     overflow-y: scroll;
   }
+
+  .content--inner::-webkit-scrollbar {
+    display: none;
+  }
   /*Screen widths*/
   @media screen and (max-width: 800px) {
   padding-left: 15px;

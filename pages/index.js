@@ -7,17 +7,22 @@ import Text from '../components/Text'
 export default () => (
   <Layout>
     <Text>
-      <p css={`
-        letter-spacing: 0.05em;
-        font-weight: 500;
-        `}>
-        THIS IS MY WORK IN PROGRESS PORTFOLIO SITE!
+      <p>
+        I am a Junior Web Developer with a passion for good UX and innovative designs.
       </p>
       <p>
-        I am a web developer who has been working at Si digital as an apprentice since December 2018. During this time I have worked on building websites using WordPress, React and Next.js. I have also spent time facilitating and formatting requirements for projects that I am working on. For a couple of my projects I have designed and developed the mySQL databases and API endpoints to integrate with them. Although it isn’t my specialty I also enjoy designing user interfaces using Figma and have built a few websites using them (including this one).
+        I specialise in React.js development although I have worked on various projects using WordPress, Kentico CMS, Vue.js and Unity.
       </p>
       <p>
-        I will write more for this page when I have perfected the other areas of the site.
+        I began working as a developer in December 2018 when I began an apprenticeship with Si digital, a digital agency, based in Southsea, Portsmouth.
+        Currently I am working with Distinction, another digital agency, based in Nottingham. 
+        I am hoping to find more freelance projects in the near future, this will allow me to take more of my own route design-wise and technology wise.
+      </p>
+      <p>
+        My projects page on this site only shows the projects I have developed/designed on my own. I'm always open to talk about more of the things I've worked on if your there to listen!
+      </p>
+      <p>
+        Contact me on LinkedIn if you are interested! I hope to hear from you :)
       </p>
     </Text>
   </Layout>

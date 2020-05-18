@@ -17,12 +17,12 @@ const contactDetails = [
   {
     label: 'Instagram',
     value: 'maclennandaisy',
-    link: ''
+    link: 'https://www.instagram.com/maclennandaisy/'
   },
   {
     label: 'LinkedIn',
     value: 'daisymaclennan',
-    link: ''
+    link: 'https://www.linkedin.com/in/daisy-maclennan/'
   },
 ]
 

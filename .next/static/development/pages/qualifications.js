@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/qualifications.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\qualifications.js"],{
 
 /***/ "./components/Content.js":
 /*!*******************************!*\
@@ -14,7 +14,7 @@ __webpack_require__.r(__webpack_exports__);
 var Content = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withConfig({
   displayName: "Content",
   componentId: "sc-1w696lm-0"
-})(["position:fixed;top:0;left:0;.content--inner{overflow-y:scroll;}@media screen and (max-width:800px){padding-left:15px;padding-right:15px;padding-top:130px;.content--inner{height:calc(100vh - 230px);width:calc(100vw - 30px);padding-bottom:150px;padding-top:20px;}}@media screen and (min-width:801px) and (max-width:1440px){padding-left:40px;padding-right:40px;padding-top:200px;.content--inner{height:calc(100vh - 250px);padding-top:5px;}}@media screen and (min-width:1441px){padding-left:70px;padding-right:70px;padding-top:240px;.content--inner{height:calc(100vh - 340px);padding-top:12px;}}@media screen and (min-width:801px){display:flex;}"]);
+})(["position:fixed;top:0;left:0;.content--inner{overflow-y:scroll;}.content--inner::-webkit-scrollbar{display:none;}@media screen and (max-width:800px){padding-left:15px;padding-right:15px;padding-top:130px;.content--inner{height:calc(100vh - 230px);width:calc(100vw - 30px);padding-bottom:150px;padding-top:20px;}}@media screen and (min-width:801px) and (max-width:1440px){padding-left:40px;padding-right:40px;padding-top:200px;.content--inner{height:calc(100vh - 250px);padding-top:5px;}}@media screen and (min-width:1441px){padding-left:70px;padding-right:70px;padding-top:240px;.content--inner{height:calc(100vh - 340px);padding-top:12px;}}@media screen and (min-width:801px){display:flex;}"]);
 /* harmony default export */ __webpack_exports__["default"] = (Content);
 
 /***/ }),
@@ -33,7 +33,7 @@ __webpack_require__.r(__webpack_exports__);
 var ExpandingSections = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withConfig({
   displayName: "ExpandingSections",
   componentId: "sc-1kaecmq-0"
-})([".expandingSection--child{display:none;}.open ~ div{display:block !important;margin-top:20px;}.open > svg{transform:rotate(180deg);}.link--icon > *{pointer-events:none;}@media screen and (max-width:800px){.expandingSection + .expandingSection{margin-top:20px;}.open ~ div{margin-top:15px;}}@media screen and (min-width:801px) and (max-width:1440px){.expandingSection + .expandingSection{margin-top:20px;}.expandingSection{width:calc(100vw - 435px);}}@media screen and (min-width:1441px){.expandingSection + .expandingSection{margin-top:20px;}.expandingSection{width:calc(100vw - 672px);}}.slick-list{padding-top:10px;padding-bottom:10px;}.slick-slide img{width:95%;object-fit:cover;}.slick-dots button::before{color:white;}.slick-dots li.slick-active button:before{opacity:1;color:white;}@media screen and (max-width:800px){.slick-slide img{height:30vw;}}@media screen and (min-width:801px) and (max-width:1400px){.slick-slide img{height:20vw;}}@media screen and (min-width:1401px){.slick-slide img{height:20vw;}}"]);
+})([".expandingSection--child{display:none;}.open ~ div{display:block !important;margin-top:20px;}.open > svg{transform:rotate(180deg);}.link--icon > *{pointer-events:none;}@media screen and (max-width:800px){.expandingSection + .expandingSection{margin-top:20px;}.open ~ div{margin-top:15px;}}@media screen and (min-width:801px) and (max-width:1440px){.expandingSection + .expandingSection{margin-top:20px;}.expandingSection{width:calc(100vw - 435px);}}@media screen and (min-width:1441px){.expandingSection + .expandingSection{margin-top:20px;}.expandingSection{width:calc(100vw - 672px);}}.slick-list{padding-top:10px;padding-bottom:10px;}.slick-slide img{width:95%;object-fit:cover;cursor:pointer;}.slick-dots button::before{color:white;}.slick-dots li.slick-active button:before{opacity:1;color:white;}@media screen and (max-width:800px){.slick-slide img{height:30vw;}}@media screen and (min-width:801px) and (max-width:1400px){.slick-slide img{height:20vw;}}@media screen and (min-width:1401px){.slick-slide img{height:20vw;}}"]);
 /* harmony default export */ __webpack_exports__["default"] = (ExpandingSections);
 
 /***/ }),
@@ -76,7 +76,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Navigation__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Navigation */ "./components/Navigation.js");
 /* harmony import */ var _Content__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Content */ "./components/Content.js");
 
-var _jsxFileName = "/Users/daisymaclennan/Projects/my-portfolio/components/Layout.js";
+var _jsxFileName = "C:\\Users\\daisy.maclennan\\Projects\\daisymaclennan.github.io\\components\\Layout.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
@@ -129,7 +129,7 @@ var Layout = function Layout(_ref) {
       lineNumber: 169
     },
     __self: this
-  }, "Web developer, Portsmouth UK")), __jsx(_Content__WEBPACK_IMPORTED_MODULE_6__["default"], {
+  }, "Web developer, Nottingham UK")), __jsx(_Content__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 171
@@ -171,7 +171,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/router */ "./node_modules/next/dist/client/router.js");
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/Users/daisymaclennan/Projects/my-portfolio/components/Navigation.js";
+var _jsxFileName = "C:\\Users\\daisy.maclennan\\Projects\\daisymaclennan.github.io\\components\\Navigation.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -5744,10 +5744,10 @@ function concatArrays(originVal, newVal) {
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fqualifications&absolutePagePath=%2FUsers%2Fdaisymaclennan%2FProjects%2Fmy-portfolio%2Fpages%2Fqualifications%2Findex.js!./":
-/*!******************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fqualifications&absolutePagePath=%2FUsers%2Fdaisymaclennan%2FProjects%2Fmy-portfolio%2Fpages%2Fqualifications%2Findex.js ***!
-  \******************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fqualifications&absolutePagePath=C%3A%5CUsers%5Cdaisy.maclennan%5CProjects%5Cdaisymaclennan.github.io%5Cpages%5Cqualifications%5Cindex.js!./":
+/*!***********************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fqualifications&absolutePagePath=C%3A%5CUsers%5Cdaisy.maclennan%5CProjects%5Cdaisymaclennan.github.io%5Cpages%5Cqualifications%5Cindex.js ***!
+  \***********************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -7581,12 +7581,12 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 
 /***/ "./node_modules/object-assign/index.js":
 /*!***************************************************************************************************!*\
-  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_7aff549c98b978433226 ***!
+  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_771cfa86189fe612a00d ***!
   \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_7aff549c98b978433226 */ "dll-reference dll_7aff549c98b978433226"))("./node_modules/object-assign/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_771cfa86189fe612a00d */ "dll-reference dll_771cfa86189fe612a00d"))("./node_modules/object-assign/index.js");
 
 /***/ }),
 
@@ -8254,12 +8254,12 @@ module.exports = exports['default'];
 
 /***/ "./node_modules/prop-types/checkPropTypes.js":
 /*!*********************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_7aff549c98b978433226 ***!
+  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_771cfa86189fe612a00d ***!
   \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_7aff549c98b978433226 */ "dll-reference dll_7aff549c98b978433226"))("./node_modules/prop-types/checkPropTypes.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_771cfa86189fe612a00d */ "dll-reference dll_771cfa86189fe612a00d"))("./node_modules/prop-types/checkPropTypes.js");
 
 /***/ }),
 
@@ -8894,12 +8894,12 @@ if (true) {
 
 /***/ "./node_modules/prop-types/lib/ReactPropTypesSecret.js":
 /*!*******************************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_7aff549c98b978433226 ***!
+  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_771cfa86189fe612a00d ***!
   \*******************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_7aff549c98b978433226 */ "dll-reference dll_7aff549c98b978433226"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_771cfa86189fe612a00d */ "dll-reference dll_771cfa86189fe612a00d"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
 
 /***/ }),
 
@@ -9901,12 +9901,12 @@ if (false) {} else {
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_7aff549c98b978433226 ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_771cfa86189fe612a00d ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_7aff549c98b978433226 */ "dll-reference dll_7aff549c98b978433226"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_771cfa86189fe612a00d */ "dll-reference dll_771cfa86189fe612a00d"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -14012,12 +14012,12 @@ module.exports = {
 
 /***/ "./node_modules/webpack/buildin/global.js":
 /*!******************************************************************************************************!*\
-  !*** delegated ./node_modules/webpack/buildin/global.js from dll-reference dll_7aff549c98b978433226 ***!
+  !*** delegated ./node_modules/webpack/buildin/global.js from dll-reference dll_771cfa86189fe612a00d ***!
   \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_7aff549c98b978433226 */ "dll-reference dll_7aff549c98b978433226"))("./node_modules/webpack/buildin/global.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_771cfa86189fe612a00d */ "dll-reference dll_771cfa86189fe612a00d"))("./node_modules/webpack/buildin/global.js");
 
 /***/ }),
 
@@ -14069,7 +14069,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _static_qualifications__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../static/qualifications */ "./static/qualifications.js");
 /* harmony import */ var _components_ExpandingSections__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/ExpandingSections */ "./components/ExpandingSections.js");
 /* harmony import */ var _components_Qualification__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/Qualification */ "./components/Qualification.js");
-var _jsxFileName = "/Users/daisymaclennan/Projects/my-portfolio/pages/qualifications/index.js";
+var _jsxFileName = "C:\\Users\\daisy.maclennan\\Projects\\daisymaclennan.github.io\\pages\\qualifications\\index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -14299,34 +14299,37 @@ var qualifications = {
   }, {
     title: 'BCS Level 3 Certificate in Software Development Context and Methodologies',
     grade: 'PASS'
+  }, {
+    title: 'BCS Level 3 Software Development Technician Apprenticeship',
+    grade: 'MERIT'
   }]
 };
 /* harmony default export */ __webpack_exports__["default"] = (qualifications);
 
 /***/ }),
 
-/***/ 4:
-/*!**********************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fqualifications&absolutePagePath=%2FUsers%2Fdaisymaclennan%2FProjects%2Fmy-portfolio%2Fpages%2Fqualifications%2Findex.js ***!
-  \**********************************************************************************************************************************************************************/
+/***/ 3:
+/*!***************************************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fqualifications&absolutePagePath=C%3A%5CUsers%5Cdaisy.maclennan%5CProjects%5Cdaisymaclennan.github.io%5Cpages%5Cqualifications%5Cindex.js ***!
+  \***************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fqualifications&absolutePagePath=%2FUsers%2Fdaisymaclennan%2FProjects%2Fmy-portfolio%2Fpages%2Fqualifications%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fqualifications&absolutePagePath=%2FUsers%2Fdaisymaclennan%2FProjects%2Fmy-portfolio%2Fpages%2Fqualifications%2Findex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fqualifications&absolutePagePath=C%3A%5CUsers%5Cdaisy.maclennan%5CProjects%5Cdaisymaclennan.github.io%5Cpages%5Cqualifications%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fqualifications&absolutePagePath=C%3A%5CUsers%5Cdaisy.maclennan%5CProjects%5Cdaisymaclennan.github.io%5Cpages%5Cqualifications%5Cindex.js!./");
 
 
 /***/ }),
 
-/***/ "dll-reference dll_7aff549c98b978433226":
+/***/ "dll-reference dll_771cfa86189fe612a00d":
 /*!*******************************************!*\
-  !*** external "dll_7aff549c98b978433226" ***!
+  !*** external "dll_771cfa86189fe612a00d" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_7aff549c98b978433226;
+module.exports = dll_771cfa86189fe612a00d;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js"]]]);
+},[[3,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=qualifications.js.map

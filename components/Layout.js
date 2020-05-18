@@ -166,7 +166,7 @@ const Layout = ({ children }) => (
     <GlobalStyle />
       <Header>
         <h1>Daisy Maclennan</h1>
-        <h2>Web developer, Portsmouth UK</h2>
+        <h2>Web developer, Nottingham UK</h2>
       </Header>
       <Content>
         <Navigation />

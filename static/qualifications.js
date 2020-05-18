@@ -58,6 +58,10 @@ const qualifications = {
       title: 'BCS Level 3 Certificate in Software Development Context and Methodologies',
       grade: 'PASS'
     },
+    {
+      title: 'BCS Level 3 Software Development Technician Apprenticeship',
+      grade: 'MERIT'
+    }
   ]
 }
 

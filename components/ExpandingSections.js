@@ -49,6 +49,7 @@ const ExpandingSections = styled.div`
 .slick-slide img{
   width: 95%;
   object-fit: cover;
+  cursor: pointer;
 }
 .slick-dots button::before{
   color: white;
