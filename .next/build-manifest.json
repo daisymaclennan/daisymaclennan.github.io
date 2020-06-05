@@ -4,10 +4,6 @@
     "static/development/dll/dll_ae905743167590ff0c59.js.map"
   ],
   "pages": {
-    "/": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
     "/_app": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
@@ -20,15 +16,7 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/index": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
     "/my-work": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/qualifications": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]
