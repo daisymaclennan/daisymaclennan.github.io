@@ -6,8 +6,8 @@ const contactDetails = [
   },
   {
     label: 'Phone number',
-    value: '07932370594',
-    link: 'tel:07932370594'
+    value: '07947722151',
+    link: 'tel:07947722151'
   },
   {
     label: 'GitHub',
