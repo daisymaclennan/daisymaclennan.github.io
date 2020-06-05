@@ -22625,6 +22625,20 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement;
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 var myWork = [{
+  title: 'Zombie Shooter',
+  slug: 'zombie-shooter',
+  description: 'Zombie Shooter was an experimental project to kick of my game development learning. I created a third-person shooter game where zombies chased you through a small map. Game development diary here -> https://vimeo.com/387664607',
+  time_period: 'November 2019 to January 2020',
+  img: [{
+    index: 0,
+    alt: 'Main character overlooking the landscape from the roof of apartment building.',
+    filename: 'zs-one.png'
+  }, {
+    index: 1,
+    alt: 'Main character looking at zombies.',
+    filename: 'zs-two.png'
+  }]
+}, {
   title: 'Gosport Boxing Club',
   slug: 'gosport-boxing-club',
   description: 'Gosport Boxing Club is a non profit organisation helping people of all ages get fit in Gosport on a budget. I designed and developed this site for them as a favour, sadly things were delayed and it was never deployed. Video design tour on vimeo here -> https://vimeo.com/394180352',
@@ -22663,20 +22677,6 @@ var myWork = [{
     index: 4,
     alt: 'Homepage with organisation tab open for Creative Portsmouth',
     filename: 'cp-five.png'
-  }]
-}, {
-  title: 'Zombie Shooter',
-  slug: 'zombie-shooter',
-  description: 'Zombie Shooter was an experimental project to kick of my game development learning. I created a third-person shooter game where zombies chased you through a small map. Game development diary here -> https://vimeo.com/387664607',
-  time_period: 'November 2019 to January 2020',
-  img: [{
-    index: 0,
-    alt: 'Main character overlooking the landscape from the roof of apartment building.',
-    filename: 'zs-one.png'
-  }, {
-    index: 1,
-    alt: 'Main character looking at zombies.',
-    filename: 'zs-two.png'
   }]
 }, {
   title: 'Word muncher',
