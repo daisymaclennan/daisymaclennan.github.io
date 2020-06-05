@@ -171,7 +171,9 @@ const Layout = ({ children }) => (
       <Content>
         <Navigation />
         <div className="content--inner">
-          {children}
+          <div css={`@media screen and (max-width: 800px){padding-bottom: 150px;}`}>
+            {children}
+          </div>
         </div>
       </Content>
   </div>

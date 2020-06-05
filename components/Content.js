@@ -16,6 +16,7 @@ const Content = styled.div`
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 130px;
+  padding-bottom: 150px;
 
   .content--inner {
     height: calc(100vh - 230px);

@@ -11,7 +11,7 @@ const myWork = [
         filename: 'gb-one.png'
       },
       {
-        index: 0,
+        index: 1,
         alt: 'Main character looking at zombies.',
         filename: 'gb-two.png'
       }
@@ -62,7 +62,7 @@ const myWork = [
         filename: 'zs-one.png'
       },
       {
-        index: 0,
+        index: 1,
         alt: 'Main character looking at zombies.',
         filename: 'zs-two.png'
       }

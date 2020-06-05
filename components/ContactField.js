@@ -20,9 +20,13 @@ const ContactField = styled.div`
     align-items: center;
   }
   @media screen and (max-width: 800px) {
+    margin-bottom: 25px;
     h3 {
       padding-left: 0px;
       font-size: 20px;
+    }
+    h5{
+      margin-bottom: 0px;
     }
   }
   @media screen and (min-width: 801px) {

@@ -19,7 +19,7 @@ var myWork = [{
     alt: 'Main character overlooking the landscape from the roof of apartment building.',
     filename: 'gb-one.png'
   }, {
-    index: 0,
+    index: 1,
     alt: 'Main character looking at zombies.',
     filename: 'gb-two.png'
   }]
@@ -59,7 +59,7 @@ var myWork = [{
     alt: 'Main character overlooking the landscape from the roof of apartment building.',
     filename: 'zs-one.png'
   }, {
-    index: 0,
+    index: 1,
     alt: 'Main character looking at zombies.',
     filename: 'zs-two.png'
   }]
@@ -91,4 +91,4 @@ var myWork = [{
 /***/ })
 
 })
-//# sourceMappingURL=my-work.js.6864997bda366754f257.hot-update.js.map
+//# sourceMappingURL=my-work.js.c0369f5ab053f58f467e.hot-update.js.map
