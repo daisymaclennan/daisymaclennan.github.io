@@ -3,6 +3,7 @@ import { createGlobalStyle } from 'styled-components'
 import Header from './Header'
 import Navigation from './Navigation'
 import Content from './Content'
+import Head from 'next/head'
 
 const GlobalStyle = createGlobalStyle`
   *:focus {
@@ -164,6 +165,16 @@ const GlobalStyle = createGlobalStyle`
 const Layout = ({ children }) => (
   <div>
     <GlobalStyle />
+      <Head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157262864-2"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-157262864-2');
+        </script>
+      </Head>
       <Header>
         <h1>Daisy Maclennan</h1>
         <h2>Web developer, Nottingham UK</h2>
